@@ -1,0 +1,2 @@
+https://www.ncbi.nlm.nih.gov/datasets/gene/23411/#transcripts-and-proteins
+https://www.ncbi.nlm.nih.gov/nuccore/NM_001142498.2/
