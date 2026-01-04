@@ -1,0 +1,138 @@
+--- # Toggle visual wrap:  Alt + Z
+Glossary:
+  Tech:
+  - NCBI
+    command line tool: https://www.ncbi.nlm.nih.gov/datasets/docs/v2/command-line-tools/download-and-install/
+  - FASTA
+  - ClustalW:
+    kind: alignment tool
+  - MUSCLE:
+    kind: alignment tool
+  - GenBank:
+    kind: sequence database
+    description: The GenBank sequence database is an open access, annotated collection of all publicly available nucleotide sequences and their protein translations
+  - filetypes:
+    - gb
+    - gp:
+      aka: GenPept
+    - fasta
+  Content:
+  - SIRT1:
+    kind: gene
+    species: [human, mouse]
+  - Sirtuin-1:
+    kind: protein
+    aka: NAD-dependent deacetylase sirtuin-1
+  - SIR2
+  - Sirtuins:
+    link: https://en.wikipedia.org/wiki/Sirtuin
+    info: conserved across all kingdoms. "Whereas bacteria and archaea encode either one or two sirtuins, eukaryotes encode several sirtuins in their genomes. In yeast, roundworms, and fruitflies, sir2 is the name of one of the sirtuin-type proteins (see table below).[11] Mammals possess seven sirtuins (SIRT1–7)"
+  Project:
+  - term: Ortholog
+    orthologs seen: 
+      - 23411
+      - 34708
+    link: https://www.ncbi.nlm.nih.gov/datasets/gene/23411/#orthologs
+    link: https://www.ncbi.nlm.nih.gov/datasets/gene/139686749/#orthologs
+  - Species and organisms:
+    - Homo Sapiens:
+        SIRT1:
+        - Also known as: SIR2, SIR2L1, SIR2alpha 
+        - link: https://www.ncbi.nlm.nih.gov/datasets/gene/23411/
+    - Drosophilia:
+        kind: genus
+        relevant species: Melanogaster
+        other species: Simulans
+        Melanogaster common name: fruit fly
+        gene link: https://www.ncbi.nlm.nih.gov/datasets/gene/34708/
+    - S. cerevisiae:
+        kind: species
+        aka: Saccharomyces cerevisiae 
+        aka2: Baker's Yeast
+        name: sirtuin (silent mating type information regulation 2 homolog) 1
+    - P. aeruginosa:
+        full name: Pseudomonas aeruginosa
+        has 'SIR2' gene: SIR2 family NAD-dependent protein deacylase [Pseudomonas aeruginosa]
+        description: a gram-negative anaerobic bacteria that causes diseases in plants & animals. Important to immunologists, CDC, whatnot, especially due to very high antibiotic resistance.
+        further reading: https://en.wikipedia.org/wiki/Pseudomonas_aeruginosa
+    - Pinus longaeva:
+        Rationale: I'm looking into this because wikipedia says it's one of the longest-lived trees in the world. If SIRT1/SIR2 are related to aging, then has anyone done any work to analyze if these trees do something unusual with their sirtuins?
+        Common Name: Great Basin Bristlecone Pine
+        wiki: https://en.wikipedia.org/wiki/Pinus_longaeva
+        tree data: https://treegenesdb.org/org/Pinus-longaeva
+        NCBI Taxonomy ID: 3344
+        searching-for-papers-link:
+          - https://pmc.ncbi.nlm.nih.gov/search/?term=Pinus%20longaeva%20sirtuin
+          - https://www.ncbi.nlm.nih.gov/search/all/?term=Pinus+longaeva+sirtuin
+        paper-1: 
+          link: 
+            https://pmc.ncbi.nlm.nih.gov/articles/PMC6628237/
+          cite: 
+            Surguchov A, Emamzadeh FN, Surguchev AA. Amyloidosis and Longevity: A Lesson from Plants. Biology (Basel). 2019 May 24;8(2):43. doi: 10.3390/biology8020043. PMID: 31137746; PMCID: PMC6628237.
+          abstract: 
+            The variety of lifespans of different organisms in nature is amazing. Although it is acknowledged that the longevity is determined by a complex interaction between hereditary and environmental factors, many questions about factors defining lifespan remain open. One of them concerns a wide range of lifespans of different organisms. The reason for the longevity of certain trees, which reaches a thousand years and exceeds the lifespan of most long living vertebrates by a huge margin is also not completely understood. Here we have discussed some distinguishing characteristics of plants, which may explain their remarkable longevity. Among them are the absence (or very low abundance) of intracellular inclusions composed of amyloidogenic proteins, the lack of certain groups of proteins prone to aggregate and form amyloids in animals, and the high level of compounds which inhibit protein aggregation and possess antiaging properties.Keywords: amyloidosis, protein aggregation, protein misfolding, longevity, lifespan, synucleins, neurodegeneration
+          comment: actually might be an interesting read. Includes BioI, sequence alignment images. Also shows up on my next search for Mayflies. Mayfly
+        paper-2:
+          link:
+            https://pmc.ncbi.nlm.nih.gov/articles/PMC7329788/
+          cite: 
+            Ciacka K, Tymiński M, Gniazdowska A, Krasuska U. Carbonylation of proteins-an element of plant ageing. Planta. 2020 Jul 1;252(1):12. doi: 10.1007/s00425-020-03414-1. PMID: 32613330; PMCID: PMC7329788.
+          abstract:
+            [Main conclusion] Carbonylation-ROS-dependent posttranslational modification of proteins-may be regarded as one of the important events in the process of ageing or senescence in plants. [Abstract] Ageing is the progressive process starting from seed development (plants) and birth (animals). The life-span of living organisms depends on many factors and stresses, which influence reactive oxygen species (ROS) level. The imbalance of their production and scavenging causes pathophysiological conditions that accelerate ageing. ROS modify nucleic acids, lipids, sugars and proteins. The level of carbonylated proteins can serve as an indicator of an oxidative cellular status. Several pathways of protein carbonylation, e.g. the conjugation with reactive carbonyl species, and/or a direct metal-catalysed oxidative attack on amino acids residues are known. Dysfunctional carbonylated proteins are more prone to degradation or form aggregates when the proteolytic machinery is inhibited, as observed in ageing. Protein carbonylation may contribute to formation of organelle-specific signal and to the control of protein quality. Carbonylated proteins are formed during the whole plant life; nevertheless, accelerated ageing stimulates the accumulation of carbonyl derivatives. In the medicine-related literature, concerned ageing and ROS-mediated protein modifications, this topic is extensively analysed, in comparison to the plant science. In plant science, ageing and senescence are considered to describe slightly different processes (physiological events). However, senescence (Latin: senēscere) means “to grow old”. This review describes the correlation of protein carbonylation level to ageing or/and senescence in plants. Comparing data from the area of plant and animal research, it is assumed that some basic mechanism of time-dependent alterations in the cellular biochemical processes are common and the protein carbonylation is one of the important causes of ageing. Keywords: Carbonyl groups, Posttranslational protein modification, ROS, Senescence
+          comment: approaches longevity questions based on carbonylation of xyz.
+    - Xenopus tropicalis:
+        Common Name: Western clawed frog
+        wiki: https://en.wikipedia.org/wiki/Western_clawed_frog
+        link: https://www.ncbi.nlm.nih.gov/datasets/gene/100145679/
+    - Mayfly:
+        wiki: https://en.wikipedia.org/wiki/Mayfly
+        Species: Palaeoptera order (3K species; the order includes dragonflies.)  Also see order Ephemeroptera 
+        famous species: https://en.wikipedia.org/wiki/Rhithrogena_germanica fisherman's march brown mayfly, used in fly fishing.
+        see also, website: https://web.archive.org/web/20150730141612/http://entnemdept.ifas.ufl.edu/walker/ufbir/chapters/chapter_37.shtml
+        candidate: parasitic wasp Acmopolynema hervali 
+        candidate: mayfly Dolania americana 
+    - Haematobia irritans:
+        aka: horn fly
+        wiki: https://en.wikipedia.org/wiki/Haematobia_irritans
+        data: https://www.ncbi.nlm.nih.gov/datasets/gene/142227282/
+        data: https://www.ncbi.nlm.nih.gov/gene/142222301
+        data: https://www.ncbi.nlm.nih.gov/gene/142227282
+        data: https://www.ncbi.nlm.nih.gov/protein/XP_075153850.1
+        data: https://www.ncbi.nlm.nih.gov/protein/XP_075148462.1
+        data: https://www.ncbi.nlm.nih.gov/protein/?term=sirtuin+Haematobia+irritans
+    - Neodiprion lecontei:
+        wiki: https://en.wikipedia.org/wiki/Neodiprion_lecontei
+        comment: they feed on pines. certainly no ortholog to the pines they eat...
+        data: https://www.ncbi.nlm.nih.gov/datasets/taxonomy/441921/
+  - random papers:
+    - paper on a pine nut and anti-aging properties:
+        link:
+        https://pubmed.ncbi.nlm.nih.gov/25976661/:
+        title: 
+        The natural phytochemical dehydroabietic acid is an anti-aging reagent that mediates the direct activation of SIRT1
+        cite: 
+        Kim J, Kang YG, Lee JY, Choi DH, Cho YU, Shin JM, Park JS, Lee JH, Kim WG, Seo DB, Lee TR, Miyamoto Y, No KT. The natural phytochemical dehydroabietic acid is an anti-aging reagent that mediates the direct activation of SIRT1. Mol Cell Endocrinol. 2015 Sep 5;412:216-25. doi: 10.1016/j.mce.2015.05.006. Epub 2015 May 11. PMID: 25976661.
+        comment: directly approach SIRT1. 
+        species mentioned in abstract: 
+          pinus species (P. densiflora, P. sylvestris) and grand fir (Abies grandis),
+        src:
+          https://pubmed.ncbi.nlm.nih.gov/?term=pinus%20sirtuin&sort=date&ac=yes
+
+
+  Aux:
+    - item: "Laptop"
+      quantity: 10
+      price: 999.99
+      category: "Electronics"
+    - item: "Desk Chair"
+      quantity: 15
+      price: 89.99
+      category: "Furniture"
+    - item: "Keyboard"
+      quantity: 25
+      price: 49.99
+      category: "Electronics"
+    - item: "Coffee Mug"
+      quantity: 50
+      price: 9.99
+      category: "Accessories"

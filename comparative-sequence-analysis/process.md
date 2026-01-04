@@ -19,7 +19,7 @@ Instead of analyzing 20,000 genes across 5,000 cells (Transcriptomics), you will
 
 Your 5-Step "Weekend Roadmap"
   - Install Biopython: pip install biopython.
-  - Get the Data: Go to NCBI Protein and search for "SIRT1". Download the FASTA files for Human, Mouse, and Drosophila.
+  - Get the Data: Go to NCBI Protein[https://www.ncbi.nlm.nih.gov/protein/] and search for "SIRT1". Download the FASTA files for Human, Mouse, and Drosophila.
   - Perform Alignment: Use a local tool or a Python wrapper for ClustalW or MUSCLE (common alignment tools) to see where the sequences match up.
   - Visualize: Use a simple Python script to highlight the "conserved" amino acids.
   - GitHub it: Upload the script and a README titled: "Evolutionary Conservation Analysis of the SIRT1 Longevity Protein."

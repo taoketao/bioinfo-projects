@@ -1,0 +1,22 @@
+https://www.ncbi.nlm.nih.gov/protein/
+https://www.ncbi.nlm.nih.gov/datasets/gene/taxon/1/?search=SIRT1
+
+human
+https://www.ncbi.nlm.nih.gov/datasets/gene/23411/#transcripts-and-proteins
+https://www.ncbi.nlm.nih.gov/nuccore/NM_001142498.2/
+
+mouse
+https://www.ncbi.nlm.nih.gov/protein/AAI52315.1
+https://www.ncbi.nlm.nih.gov/gene/?term=34708
+
+yeast
+https://www.ncbi.nlm.nih.gov/protein/CAA96447.1
+
+western clawed frog
+https://www.ncbi.nlm.nih.gov/datasets/gene/100145679/
+
+
+
+https://www.ncbi.nlm.nih.gov/datasets/gene/23411/#orthologs
+
+
