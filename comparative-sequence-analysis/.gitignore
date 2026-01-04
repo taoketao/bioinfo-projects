@@ -1,3 +1,8 @@
+# https://github.com/kenmueller/gitignore
 ./data/
+data/
 .ipynb_checkpoints/
-*Zone
+*Zone*
+
+/env-check.txt
+/env_check.py
