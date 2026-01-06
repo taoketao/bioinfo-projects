@@ -4,11 +4,11 @@ Glossary:
     Legend: Tech, Content, Project, Aux 
     Tags: 
       [t01] Bioinformatics, 4th ed, 2020, Baxevanis Bader Wishart
+      [t02] Biopython documentation
   
   Tech:
   - NCBI
     command line tool: https://www.ncbi.nlm.nih.gov/datasets/docs/v2/command-line-tools/download-and-install/
-  - FASTA
   - PRISM:
     Source 1: google search for 'genomes to natural products program' -> ai summary
     The Genomes to Natural Products (GNP) program, often funded through NIH/NIGMS U01 grants, is a multidisciplinary effort to accelerate the discovery of new bioactive compounds by connecting microbial genomic data to chemical, natural product structures. It utilizes advanced bioinformatics (like PRISM) and synthetic biology to identify, predict, and produce metabolites from Biosynthetic Gene Clusters (BGCs), bypassing traditional, slow cultivation methods
@@ -21,7 +21,7 @@ Glossary:
     kind: sequence database
     description: The GenBank sequence database is an open access, annotated collection of all publicly available nucleotide sequences and their protein translations
   - filetypes:
-    - list, biopython documentaton:
+    - list, biopython documentaton [t02]:
       https://biopython.org/docs/latest/Tutorial/chapter_introduction.html
       Blast output – both from standalone and WWW Blast
       Clustalw
@@ -33,9 +33,81 @@ Glossary:
       UniGene
       SwissProt
     - gb
+    - gbk = genbank
     - gp:
       aka: GenPept
     - fasta
+  - databases:
+      - [t02] biopython quote about databases:
+        - PubMed: ...for example we’ll search PubMed for papers about orchids 
+        - GenBank: and extract sequence data from GenBank in Chapter (Accessing NCBI’s Entrez databases)<https://biopython.org/docs/latest/Tutorial/chapter_entrez.html#chapter-entrez>,
+        - Swiss-Prot: extract data from Swiss-Prot from certain orchid proteins in Chapter (Swiss-Prot and ExPASy)<https://biopython.org/docs/latest/Tutorial/chapter_uniprot.html#chapter-uniprot>,
+        - ClustalW: and work with ClustalW multiple sequence alignments of orchid proteins in Section (ClustalW)<https://biopython.org/docs/latest/Tutorial/chapter_align.html#subsec-align-clustal>.
+        - link: https://biopython.org/docs/latest/Tutorial/chapter_quick_start.html
+        - see also: https://biopython.org/docs/latest/Tutorial/chapter_quick_start.html#sec-connecting-with-biological-databases
+      - [t02] definitely consider https://biopython.org/docs/latest/Tutorial/chapter_seqio.html#parsing-sequences-from-the-net 
+  - alignment algorithms:
+    - Smith-Waterman algorithm
+        - dynamic programming algorithm
+        - uses substitution matrix: https://en.wikipedia.org/wiki/Substitution_matrix
+        - uses gap-scoring scheme: https://en.wikipedia.org/wiki/Gap_penalty
+    - Needleman–Wunsch algorithm
+        smith-waterman is a variant of this
+    - efficient alternatives to quadratic smith-waterman:
+        - (Gotoh, 1982),[2] : Osamu Gotoh (1982). "An improved algorithm for matching biological sequences". Journal of Molecular Biology. 162 (3): 705–708. CiteSeerX 10.1.1.204.203. doi:10.1016/0022-2836(82)90398-9. PMID 7166760.
+        - (Altschul and Erickson, 1986),[3]: Stephen F. Altschul & Bruce W. Erickson (1986). "Optimal sequence alignment using affine gap costs". Bulletin of Mathematical Biology. 48 (5–6): 603–616. doi:10.1007/BF02462326. PMID 3580642. S2CID 189889143.
+        - (Myers and Miller, 1988).[4]: Miller, Webb; Myers, Eugene (1988). "Optimal alignments in linear space". Bioinformatics. 4 (1): 11–17. CiteSeerX 10.1.1.107.6989. doi:10.1093/bioinformatics/4.1.11. PMID 3382986.
+    - FASTA:
+        - description: FASTA is a DNA and protein sequence alignment software package first described by David J. Lipman and William R. Pearson in 1985.[1] Its legacy is the FASTA format which is now ubiquitous in bioinformatics. 
+        - link: https://en.wikipedia.org/wiki/FASTA
+    - BLAST:
+        compare your sequence with every other sequence out there. literally. "Basic local alignment and search tool"
+  - FOGSAA:
+    Fast Optimal Global Sequence Alignment Algorithm (FOGSAA) [t02]. A mode, contrasted with local and global, that's used to do pairwise sequence alignments in biopython.
+  - substitution matrices:
+    - biopython substitution matrices: 
+      'BENNER22',
+      'BENNER6',
+      'BENNER74',
+      'BLASTN',
+      'BLASTP',
+      'BLOSUM45',
+      'BLOSUM50',
+      'BLOSUM62',
+      'BLOSUM80',
+      'BLOSUM90',
+      'DAYHOFF',
+      'FENG',
+      'GENETIC',
+      'GONNET1992',
+      'HOXD70',
+      'JOHNSON',
+      'JONES',
+      'LEVIN',
+      'MCLACHLAN',
+      'MDM78',
+      'MEGABLAST',
+      'NUC.4.4',
+      'PAM250',
+      'PAM30',
+      'PAM70',
+      'RAO',
+      'RISLER',
+      'SCHNEIDER',
+      'STR',
+      'TRANS'
+    - BLOSUM62:
+      https://en.wikipedia.org/wiki/BLOSUM62
+      og paper: Henikoff, Steven; Henikoff, Jorja G. (15 November 1992). "Amino acid substitution matrices from protein blocks". Proceedings of the National Academy of Sciences. 89 (22): 10915–10919. , https://pmc.ncbi.nlm.nih.gov/articles/PMC50453/
+  - Biopython tidbits [t02]:
+    - Seq objects act like strings. Retrieve them from sequence record SecRecord object sr via  sr.seq
+    - If things ain't working, remember to try to complement and/or reverse the sequence.
+    - see https://biopython.org/docs/latest/Tutorial/chapter_seq_objects.html#translation for translation
+    - definitely consider https://biopython.org/docs/latest/Tutorial/chapter_seqio.html#parsing-sequences-from-the-net 
+    - if your PairwiseAlignments object has length >9223372036854775807 , it's overflow. 
+  - Entrez
+  - 
+  
   Content:
   - SIRT1:
     kind: gene
