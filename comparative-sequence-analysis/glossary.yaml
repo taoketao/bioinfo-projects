@@ -1,9 +1,18 @@
 --- # Toggle visual wrap:  Alt + Z
 Glossary:
+  Legend and Tags:
+    Legend: Tech, Content, Project, Aux 
+    Tags: 
+      [t01] Bioinformatics, 4th ed, 2020, Baxevanis Bader Wishart
+  
   Tech:
   - NCBI
     command line tool: https://www.ncbi.nlm.nih.gov/datasets/docs/v2/command-line-tools/download-and-install/
   - FASTA
+  - PRISM:
+    Source 1: google search for 'genomes to natural products program' -> ai summary
+    The Genomes to Natural Products (GNP) program, often funded through NIH/NIGMS U01 grants, is a multidisciplinary effort to accelerate the discovery of new bioactive compounds by connecting microbial genomic data to chemical, natural product structures. It utilizes advanced bioinformatics (like PRISM) and synthetic biology to identify, predict, and produce metabolites from Biosynthetic Gene Clusters (BGCs), bypassing traditional, slow cultivation methods
+    Source 2: latch bio -> hexagon bio -> hillenmeyer founder/exec prior XP with this and with some Stanford lab(?).
   - ClustalW:
     kind: alignment tool
   - MUSCLE:
@@ -12,6 +21,17 @@ Glossary:
     kind: sequence database
     description: The GenBank sequence database is an open access, annotated collection of all publicly available nucleotide sequences and their protein translations
   - filetypes:
+    - list, biopython documentaton:
+      https://biopython.org/docs/latest/Tutorial/chapter_introduction.html
+      Blast output – both from standalone and WWW Blast
+      Clustalw
+      FASTA
+      GenBank
+      PubMed and Medline
+      ExPASy files, like Enzyme and Prosite
+      SCOP, including ‘dom’ and ‘lin’ files
+      UniGene
+      SwissProt
     - gb
     - gp:
       aka: GenPept
@@ -101,6 +121,8 @@ Glossary:
         data: https://www.ncbi.nlm.nih.gov/protein/XP_075148462.1
         data: https://www.ncbi.nlm.nih.gov/protein/?term=sirtuin+Haematobia+irritans
     - Neodiprion lecontei:
+        common name: redheaded pine sawfly
+        description: a species of sawfly ... that feed on the foliage of many species of native and imported pines.
         wiki: https://en.wikipedia.org/wiki/Neodiprion_lecontei
         comment: they feed on pines. certainly no ortholog to the pines they eat...
         data: https://www.ncbi.nlm.nih.gov/datasets/taxonomy/441921/
