@@ -5,6 +5,7 @@ Glossary:
     Tags: 
       [t01] Bioinformatics, 4th ed, 2020, Baxevanis Bader Wishart
       [t02] Biopython documentation
+      [t03] Biochemistry, voet and voet
   
   Tech:
   - NCBI
@@ -17,9 +18,15 @@ Glossary:
     kind: alignment tool
   - MUSCLE:
     kind: alignment tool
+  - SwissProt:
+    [t03] p114: "After a protein's sequence has been determined, the information is customarily deposited in a public database such as Swiss-Prot."
+    link: (?) expasy.chuge.ch
+    info: (wikipedia on UniProt) UniProt is the Universal Protein resource, a central repository of protein data created by combining the Swiss-Prot, TrEMBL and PIR-PSD databases. www.uniprot.org
   - GenBank:
     kind: sequence database
+    link: www.ncbi.nlm.nih.gov
     description: The GenBank sequence database is an open access, annotated collection of all publicly available nucleotide sequences and their protein translations
+    [t03] p114: "Databases for nucleotide sequences, from which amino acid sequences can be inferred, include GenBank."
   - filetypes:
     - list, biopython documentaton [t02]:
       https://biopython.org/docs/latest/Tutorial/chapter_introduction.html
