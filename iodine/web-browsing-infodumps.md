@@ -1,4 +1,6 @@
 see [primer] if i need a refresher on all this
+initial inspiration born from Ralf Reski's moss photobioreactors in the early
+morning of 1/5/2026. verified idea on phone notes before 1/7.
 
 
 <orig-wikipedia-dot-md>
@@ -153,6 +155,18 @@ https://www.uniprot.org/uniprotkb?query=iodine+AND+transporter+NOT+%28taxonomy_i
 https://www.uniprot.org/uniprotkb/A0A1I2L1S2/entry  Transporter, SSS family  Halobacillus alkaliphilus   (found with 'similar proteins' section near bottom?)
 https://www.uniprot.org/citations/32190953   A novel dimethylsulfoxide reductase family of molybdenum enzyme, Idr, is involved in iodate respiration by Pseudomonas sp. SCT.
 
+https://biopython.org/docs/latest/Tutorial/chapter_introduction.html
+https://biopython.org/docs/latest/Tutorial/chapter_cookbook.html
+https://biopython.org/docs/latest/Tutorial/chapter_blast.html
+https://biopython.org/docs/latest/Tutorial/chapter_pairwise.html#substitution-scores
+https://github.com/biopython/biopython/tree/master/Bio/SeqIO
+https://en.wikipedia.org/wiki/Sirtuin_1
+https://en.wikipedia.org/wiki/List_of_sequenced_eukaryotic_genomes
+https://en.wikipedia.org/wiki/Smith%E2%80%93Waterman_algorithm
+https://en.wikipedia.org/wiki/BLAST_(biotechnology)
+https://en.wikipedia.org/wiki/Gap_penalty
+
+
 
 
 
@@ -231,6 +245,7 @@ Nannochloropis gaditana Strain: CCMP526, Lipid-producing ; biotechnology
 applications, https://en.wikipedia.org/wiki/Eustigmatophyte
 GPT recommends, based on phylogenic thyroxine => iodine reactions and transporters in salt-water algae:  Brown macroalgae (Phaeophyceae) — especially kelps like Laminaria, Macrocystis, Saccharina — are by far the strongest iodine accumulators in the biosphere, with tissue iodine up to ~30,000× seawater concentration
 
+https://en.wikipedia.org/wiki/Culture_of_microalgae_in_hatcheries#Commonly_cultivated_microalgae_species
 
 
 
@@ -252,6 +267,9 @@ https://en.wikipedia.org/wiki/Thyroxine
 https://pmc.ncbi.nlm.nih.gov/articles/PMC3509517/  2012 History of U.S. Iodine Fortification and Supplementation
 https://en.wikipedia.org/wiki/Chloride_channel
 https://en.wikipedia.org/wiki/Magnesium_transporter
+    I think I looked into magnesium and it wasn't nearly as viable as iodine.
+    I forget exactly why. I suspect I was looking at ocean prolificity,
+    terrestrial availability, and the US geological survey.
 https://en.wikipedia.org/wiki/Cytoglobin
 https://en.wikipedia.org/wiki/Transmembrane_protein
 https://en.wikipedia.org/wiki/Arthrobotrys_dactyloides
@@ -678,12 +696,43 @@ in brown algae: a brief critical review. Metallomics, 11(4), 756-764.
 
 
 
-
-
-
-
-
-
-
+https://pmc.ncbi.nlm.nih.gov/articles/PMC9033726/
+- Lab-scale photobioreactor systems: principles, applications, and scalability
+  Benner, P., Meier, L., Pfeffer, A., Krüger, K., Oropeza Vargas, J. E., & Weuster-Botz, 
+  D. (2022). ... Bioprocess and biosystems engineering, 45(5), 791-813.
+A deep dive into modern industrial practices. 
+- src: wiki//photobioreactor, quote: Photobioreactors are typically used for 
+    the cultivation of bioactive compounds for biofuels, pharmaceuticals, and other industrial uses."
+- "Phototrophic microorganisms that convert carbon dioxide are being explored 
+    for their capacity to solve different environmental issues and produce 
+    bioactive compounds for human therapeutics and as food additives"
+    ... or biofuels. ie nobody's into mining or industrial chemical precursor fabrication. It's a good niche.
 
 </jan-12-:WQ>
+
+
+
+
+
+
+
+
+<jan-14-:WQ>
+
+chemical price market with intermediates clumped:
+  https://fred.stlouisfed.org/release/tables?rid=46&eid=142872#snid=142878
+
+https://www.uniprot.org/uniprotkb/A0A3G3BM28/publications
+    Vanadium-dependent iodine peroxidase, Saccharina japonica (Sweet kelp) (Laminaria japonica)
+https://www.uniprot.org/uniprotkb/Q4LDE6/publications
+    Vanadium-dependent iodoperoxidase 1, Laminaria digitata
+https://en.wikipedia.org/wiki/BioBrick, synbio
+https://en.wikipedia.org/wiki/Fermentation
+https://commons.wikimedia.org/wiki/File:The\_biochemical\_pathways\_of\_fermentation\_of\_glucose.png
+https://en.wikipedia.org/wiki/Photobioreactor#cite\_ref-2
+Benner, P., Meier, L., Pfeffer, A., Krüger, K., Oropeza Vargas, J. E., & 
+    Weuster-Botz, D. (2022). Lab-scale photobioreactor systems: principles, 
+    applications, and scalability. Bioprocess and biosystems engineering, 45(5),
+  https://link.springer.com/content/pdf/10.1007/s00449-022-02711-1.pdf
+
+</jan-14-:WQ>
