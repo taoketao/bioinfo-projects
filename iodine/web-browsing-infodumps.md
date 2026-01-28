@@ -145,7 +145,7 @@ https://en.wikipedia.org/wiki/Durusdinium_trenchii
 https://www.uniprot.org/uniprotkb/A0AAD6J2F6/entry  Arthrobotrys dactyloides pendrin
 https://www.uniprot.org/uniprotkb/A0ABP0P912/entry  Solute carrier family 26 member 6 (Anion exchange transporter) (Chloride-formate exchanger) (Pendrin-L1) (Pendrin-like protein 1) 
 https://www.uniprot.org/uniprotkb?query=discoideum+AND+transporter
-https://www.uniprot.org/uniprotkb/Q92911/variant-viewer  SLC5A5 sodium-iodine transporter
+https://www.uniprot.org/uniprotkb/Q92911/variant-viewer  SLC5A5 sodium-iodine transporter    [tag92817]
 https://www.uniprot.org/uniprotkb/A0A9P1CQK5/entry  Uncharacterized symporter YidK  Cladocopium goreaui
 https://www.uniprot.org/uniprotkb/A0A9P1CVW5/entry  E3 SUMO-protein ligase pli1  Cladocopium goreaui
 https://www.uniprot.org/uniprotkb/A0A3G3BM28/entry  Saccharina japonica (Sweet kelp) (Laminaria japonica)  Vanadium-dependent iodine peroxidase   https://www.uniprot.org/uniprotkb/A0A3G3BM28/publications
@@ -737,3 +737,177 @@ Benner, P., Meier, L., Pfeffer, A., Krüger, K., Oropeza Vargas, J. E., &
 youtube channel stem cells in gatorade
 
 </jan-14-:WQ>
+
+
+<jan-27-workcomp>
+
+"Via the thyroid hormones, iodine has a nutritional relationship with selenium. A family of selenium-dependent enzymes called deiodinases converts T4 to T3 (the active hormone) by removing an iodine atom from the outer tyrosine ring. " [src](https://en.wikipedia.org/wiki/Iodine_in_biology)
+
+"Although it is toxic in large doses, selenium is an essential micronutrient for animals. In plants, it occurs as a bystander mineral,[114] sometimes in toxic proportions in forage (some plants may accumulate selenium as a defense against being eaten by animals,[115] but other plants, such as locoweed, require selenium, and their growth indicates the presence of selenium in soil).[116] The selenium content in the human body is believed to be in the range of 13–20 mg.[117]" [Locoweed](https://en.wikipedia.org/wiki/Locoweed)
+
+=>
+https://en.wikipedia.org/wiki/Deiodinase
+https://en.wikipedia.org/wiki/Iodothyronine_deiodinase
+https://en.wikipedia.org/wiki/Iodotyrosine_deiodinase
+https://en.wikipedia.org/wiki/Peroxiredoxin
+https://en.wikipedia.org/wiki/Thyroid_peroxidase
+
+https://en.wikipedia.org/wiki/Selenium_in_biology (micronutrient in animals)
+https://en.wikipedia.org/wiki/Selenium#Biological_role
+https://en.wikipedia.org/wiki/Selenium_yeast
+https://en.wikipedia.org/wiki/Thioredoxin_reductase
+
+
+
+
+https://en.wikipedia.org/wiki/Deiodinase =>
+
+Types of deiodinases include:
+family 	prosthetic group 	genes
+Iodothyronine deiodinase 		DIO1, DIO2, DIO3
+Iodotyrosine deiodinase 	Flavin mononucleotide (FMN) 	IYD
+
+<p><a href="/wiki/Iodothyronine_deiodinase" title="Iodothyronine deiodinase">Iodothyronine deiodinases</a> catalyze release of iodine directly from the thyronine hormones. They are <a href="/wiki/Selenocysteine" title="Selenocysteine">selenocysteine</a>-dependent membrane proteins with a catalytic domain resembling <a href="/wiki/Peroxiredoxin" title="Peroxiredoxin">peroxiredoxins</a> (Prx).<sup id="cite_ref-ThyronineDio_1-0" class="reference"><a href="#cite_note-ThyronineDio-1"><span class="cite-bracket">[</span>1<span class="cite-bracket">]</span></a></sup> Three related isoforms, deiodinase type I, II, and III, contribute to activation and inactivation of the initially released hormone precursor T<sub>4</sub> (<a href="/wiki/Thyroxine" title="Thyroxine">thyroxine</a>) into T<sub>3</sub> (<a href="/wiki/Triiodothyronine" title="Triiodothyronine">triiodothyronine</a>) or rT<sub>3</sub> (<a href="/wiki/Reverse_triiodothyronine" title="Reverse triiodothyronine">reverse triiodothyronine</a>) in target cells. The enzymes catalyze a reductive elimination of iodine (the different isoforms attack different thyronine positions), thereby oxidizing themselves similar to Prx, followed by a reductive recycling of the enzyme.
+</p>
+Iodothyronine deiodinases catalyze release of iodine directly from the thyronine hormones. They are selenocysteine-dependent membrane proteins with a catalytic domain resembling peroxiredoxins (Prx).[1] Three related isoforms, deiodinase type I, II, and III, contribute to activation and inactivation of the initially released hormone precursor T4 (thyroxine) into T3 (triiodothyronine) or rT3 (reverse triiodothyronine) in target cells. The enzymes catalyze a reductive elimination of iodine (the different isoforms attack different thyronine positions), thereby oxidizing themselves similar to Prx, followed by a reductive recycling of the enzyme. 
+
+<p><a href="/wiki/Iodotyrosine_deiodinase" title="Iodotyrosine deiodinase">Iodotyrosine deiodinase</a> contributes to breakdown of thyroid hormones. It releases <a href="/wiki/Iodine" title="Iodine">iodine</a>, for renewed use, from iodinated tyrosines resulting from catabolism of iodothyronines. Iodotyrosine deiodinase employs a flavin mononucleotide cofactor and belongs to the NADH oxidase/flavin reductase superfamily.<sup id="cite_ref-iodityrDeio_2-0" class="reference"><a href="#cite_note-iodityrDeio-2"><span class="cite-bracket">[</span>2<span class="cite-bracket">]</span></a></sup>
+</p>
+Iodotyrosine deiodinase contributes to breakdown of thyroid hormones. It releases iodine, for renewed use, from iodinated tyrosines resulting from catabolism of iodothyronines. Iodotyrosine deiodinase employs a flavin mononucleotide cofactor and belongs to the NADH oxidase/flavin reductase superfamily.[2] 
+
+
+https://en.wikipedia.org/wiki/Iodotyrosine_deiodinase =>
+Iodotyrosine deiodinase, also known as iodotyrosine dehalogenase 1, is a type of deiodinase enzyme that scavenges iodide by removing it from iodinated tyrosine residues in the thyroid gland.
+
+
+https://en.wikipedia.org/wiki/Thyroid_peroxidase =>
+The "organification of iodine", the incorporation of iodine into thyroglobulin for the production of thyroid hormone, is nonspecific; that is, there is no TPO-bound intermediate, but iodination occurs via reactive iodine species released from TPO. Ascidians (tunicates or sea squirts) and amphioxus, which are close invertebrate relatives of vertebrates, have a primitive homolog of the thyroid known as the [endostyle](https://en.wikipedia.org/wiki/Endostyle). They do not have a thyroglobulin gene that produce a protein intended specifically for making thyroxine, but do produce thyroxine. Presumably they simply rely on the nonspecific action.[4 == Kessler J, Obinger C, Eales G (Jul 2008). "Factors influencing the study of peroxidase-generated iodine species and implications for thyroglobulin synthesis". Thyroid. 18 (7): 769–74. doi:10.1089/thy.2007.0310. PMID 18631006.]
+
+https://en.wikipedia.org/wiki/Endostyle =>
+https://en.wikipedia.org/wiki/Tunicate
+https://en.wikipedia.org/wiki/Lancelet aka amphioxus
+https://en.wikipedia.org/wiki/Lamprey
+"The endostyle of larval lampreys (ammocoetes) metamorphoses into the thyroid gland in adults, and is regarded as being homologous to the thyroid in other vertebrates due to its iodine-concentrating activity.[7 == Ogasawara, Michio; Di Lauro, Roberto; Satoh, Nori (June 1999). "Ascidian Homologs of Mammalian Thyroid Transcription Factor-1 Gene Are Expressed in the Endostyle". Zoological Science. 16 (3): 559–565. doi:10.2108/zsj.16.559. hdl:2433/57227.]"
+https://en.wikipedia.org/wiki/Ascidiacea => "A long ciliated groove, or endostyle, runs along one side of the pharynx, and a projecting ridge along the other. The endostyle may be homologous with the thyroid gland of vertebrates, despite its differing function.[5] ... The endostyle produces a supply of mucus which is then passed into the rest of the pharynx "
+https://en.wikipedia.org/wiki/Endostyle => "Zone 7 is of particular interest because of the ability of this zone to trap radioactive iodine, ... The ability of the endostyle to trap radioiodine has a linear path to becoming the thyroid. Previous research has concluded the presence of an iodination center in some Zone 5 cells, which contain a multitude of substances. Contradictory to that study, other studies have instead pointed toward Zone 7 as the iodination center, whereas other studies have leaned toward the iodine center in Zone 8. The reason for the multitude of studies garnering different results could be the trapping of iodine in the more ciliated zones, instead of the trapping and breakdown of iodine materials. The presence of iodine collection and breakdown promoted the function of the endostyle as a precursor to the thyroid."
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12535851/
+Lee HH. Iodine Biogeochemical Cycle and Microbial Bioremediation of Radioactive Iodine-129. J Microbiol Biotechnol. 2025 Sep 26;35:e2508018. doi: 10.4014/jmb.2508.08018. PMID: 41016813; PMCID: PMC12535851.
+Research based on the need to sequester radioactive iodine. From google search "iodine in Biomineralization -ai"
+
+https://en.wikipedia.org/wiki/Peroxidase =>
+"
+Protein families that serve as peroxidases include:[1]
+    Haem-using
+        haem peroxidase and the related animal heme-dependent peroxidases
+        DyP-type peroxidase family
+        Catalase
+        some haloperoxidase
+        Di-haem cytochrome c peroxidase
+    Non-heme
+        Thiol: glutathione peroxidase, peroxiredoxin
+        vanadium bromoperoxidase
+        Alkyl hydroperoxide reductase
+        Manganese peroxidase
+        NADH peroxidase
+"
+
+https://en.wikipedia.org/wiki/Vanadium_bromoperoxidase => "Vanadium bromoperoxidases have been found in bacteria, fungi, [marine macro algae (seaweeds)](https://en.wikipedia.org/wiki/Seaweeds), and [marine microalgae (diatoms)](https://en.wikipedia.org/wiki/Diatoms) which produce brominated organic compounds.[2] It has not been definitively identified as the bromoperoxidase of higher eukaryotes, such as [murex snails](https://en.wikipedia.org/wiki/Murex), which have a very stable and specific bromoperoxidase, but perhaps not a vanadium dependent one.[3]"
+
+https://en.wikipedia.org/wiki/Vanadium_bromoperoxidase =>
+https://scop.berkeley.edu/sunid=48321 "Family a.111.1.2". SCOP. Haloperoxidase (bromoperoxidase). U.C. Berkeley, Berkeley, California.
+http://www.cathdb.info/version/latest/superfamily/1.10.606.10 "Superfamily 1.10.606.10". CATH database. Vanadium-containing chloroperoxidase, domain 2.
+https://www.ncbi.nlm.nih.gov/Structure/cdd/cddsrv.cgi?uid=cd03398 "cd03398 PAP2 haloperoxidase". CDD (ncbi.nlm.nih.gov). Bethesda, MD: U.S. National Institutes of Health.
+
+https://en.wikipedia.org/wiki/Haloperoxidase "A specific vanadium bromoperoxidase in marine organisms (fungi, bacteria, microalgae, perhaps other eukaryotes) uses vanadate and hydrogen peroxide to brominate electrophilic organics.[5 = Winter, JM; Moore, BS (July 2009). "Exploring the chemistry and biology of vanadium-dependent haloperoxidases". J. Biol. Chem. 284 (28): 18577–81. doi:10.1074/jbc.R109.001602. PMC 2707250. PMID 19363038. [link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2707250)]   Murex snails have a bromoperoxidase used to produce Tyrian purple dye. The enzyme is very specific to bromide and physically stable, but has not been characterized as to its active site.  ... bromoperoxidase : sea urchin eggs (ovoperoxidase),  iodoperoxidase in horseradish peroxidase"
+
+article/PMC2707250: To date [2009], two classes of vanadium-containing enzymes have been identified: vanadium nitrogenases and vanadium-dependent haloperoxidases (V-HPOs).  
+  Further reading:
+  Butler, Alison, and Jayme N. Carter-Franklin. "The role of vanadium bromoperoxidase in the biosynthesis of halogenated marine natural products." Natural Product Reports 21, no. 1 (2004): 180-188.
+  Littlechild, Jennifer, Esther Garcia‐Rodriguez, Andrew Dalby, and Misha Isupov. "Structural and functional comparisons between vanadium haloperoxidase and acid phosphatase enzymes." Journal of Molecular Recognition 15, no. 5 (2002): 291-296.
+    ^ everything that cites this is awesome reading material. Sample: 
+    Bioactive compounds in seaweed: functional food applications and legislation Holdt
+    Metabolites from algae with economical impact Cardozo
+    Uncovering potential applications of cyanobacteria and algal metabolites in biology, agriculture and medicine: current status and future prospects Singh
+    Enzymatic halogenation and dehalogenation reactions: pervasive and mechanistically diverse Agarwal
+    Nature's inventory of halogenation catalysts: oxidative strategies predominate Vaillancourt
+    Halogenation strategies in natural product biosynthesis Neumann
+    Mechanistic considerations of halogenating enzymes Butler
+    Enantioselective halocyclization of polyprenoids induced by nucleophilic phosphoramidites Sakakura (drug synth??)
+    subsearch "iodine": https://scholar.google.com/scholar?hl=en&as_sdt=2005&sciodt=0%2C5&cites=468416451540598067&scipsc=1&q=iodine&btnG=
+    A tuxedo for iodine atoms Phil S Baran, Thomas J Maimone - Nature, 2007 - nature.com  =>  possible carrier for iodine?
+more species: https://link.springer.com/article/10.1007/s00253-006-0417-3 abstract  (heme-thiolate peroxidases) agaric mushroom Agrocybe aegerita & ascomycete Caldariomyces fumago
+
+
+[tag514432], to iodine-transporter-survey.ipynb: see above and below for references for more species that might have iodoperoxidases.
+
+Crepineau, Florent; Roscoe, Thomas; Kaas, Raymond; Kloareg, Bernard; Boyen, Catherine (April 2000). "Characterisation of complementary DNAs from the expressed sequence tag analysis of life cycle stages of Laminaria digitata (Phaeophyceae)". Plant Molecular Biology. 43 (4): 503–513. Bibcode:2000PMolB..43..503C. doi:10.1023/A:1006489920808. PMID 11052202. S2CID 31716499.  [src](https://en.wikipedia.org/wiki/Laminaria) Other neat info: "Laminaria is less desired as a renewable energy source due to its high ash content when burned. Laminaria has an ash content of 33%, while wood has about a 2% ash content when burned. Algae have a high water content requiring much energy to dry the algae before being able to properly use it.[17 = Milledge, John J.; Smith, Benjamin; Dyer, Philip W.; Harvey, Patricia (2014). "Macroalgae-Derived Biofuel: A Review of Methods of Energy Extraction from Seaweed Biomass" (PDF). Energies. 7 (11): 7194–7222. doi:10.3390/en7117194. downloaded to local data/energies-07-07194-v2.pdf]   mineral-and-financial-research.ipynb:[tag377562]
+*See the reference above for possible kelp extraction methods.*
+
+The frog species [Xenopus laevis aka african clawed frog](https://en.wikipedia.org/wiki/Xenopus_laevis) has proven to be an ideal model organism for experimental study of the mechanisms of apoptosis and the role of iodine in developmental biology.[13][1][14][15]  [src](https://en.wikipedia.org/wiki/Iodine_in_biology)  also: "It is believed that thyroid hormones evolved in the Urbilaterian well before the development of the thyroid itself and molluscs, echinoderms, cephalochordates and ascidians all use such hormones.[16] Cnidarians also respond to Thyroid hormone despite being parahoxozoans rather than bilaterians.[16][17]  Insects use hormones similar to thyroid hormone using iodine.[18][19][20]  Phosphorylated tyrosines created with tyrosine kinases are fundamental signalling molecules in all animals and in choanoflagellates.[21][22]."  
+  [20 = Flatt, Thomas; Moroz, Leonid L.; Tatar, Marc; Heyland, Andreas (December 2006). "Comparing thyroid and insect hormone signaling". Integrative and Comparative Biology. 46 (6): 777–794. doi:10.1093/icb/icl034. ISSN 1540-7063. PMID 21672784.]  
+  [22 = Manning, Gerard; Young, Susan L.; Miller, W. Todd; Zhai, Yufeng (2008-07-15). "The protist, Monosiga brevicollis, has a tyrosine kinase signaling network more elaborate and diverse than found in any known metazoan". Proceedings of the National Academy of Sciences of the United States of America. 105 (28): 9674–9679. Bibcode:2008PNAS..105.9674M. doi:10.1073/pnas.0801314105. ISSN 1091-6490. PMC 2453073. PMID 18621719.]  
+  [16 =  Taylor, Elias; Heyland, Andreas (2017-12-25). "Evolution of thyroid hormone signaling in animals: Non-genomic and genomic modes of action". Molecular and Cellular Endocrinology. 459: 14–20. doi:10.1016/j.mce.2017.05.019. ISSN 1872-8057. PMID 28549993. S2CID 22986726. ]
+
+https://en.wikipedia.org/wiki/Peroxidase => "Pathogenic resistance.  While the exact mechanisms have yet to be determined, peroxidases are known to play a part in increasing a plant's defenses against pathogens.[3] Many members of the Solanaceae, notably Solanum melongena (eggplant/aubergine) and Capsicum chinense (the habanero/Scotch bonnet varieties of chili peppers) use Guaiacol and the enzyme guaiacol peroxidase as a defense against bacterial parasites such as Ralstonia solanacearum: the gene expression for this enzyme commences within minutes of bacterial attack.[4] "
+*for funding!!!* => "Amyloid beta, when bound to heme, has been shown to have peroxidase activity.[2] 
+"A typical group of peroxidases are the haloperoxidases. This group is able to form reactive halogen species and, as a result, natural organohalogen substances.  A majority of peroxidase protein sequences can be found in the [PeroxiBase](https://en.wikipedia.org/wiki/PeroxiBase) database. "
+  http://peroxibase.toulouse.inra.fr/
+  Passardi F; Theiler G; Zamocky M; Cosio C; Rouhier N; Teixera F; Margis-Pinheiro M; Ioannidis V; Penel C; Falquet L; Dunand C. (June 2007). "PeroxiBase: The peroxidase database". Phytochemistry. 68 (12): 1605–11. doi:10.1016/j.phytochem.2007.04.005. PMID 17544465.
+
+Peroxidases are classified as: 
+  EC 1.11 includes oxidoreductases that act on peroxide as an acceptor (peroxidases)
+  specifically, https://en.wikipedia.org/wiki/Category:EC_1.11.1
+  ^ This category page has an excellent, no-frills list of many peroxidases that might be useful as I search for organisms that can accept new haloperoxidases.
+
+
+
+Key reference: Leblanc, Catherine, Carole Colin, Audrey Cosse, Ludovic Delage, Stéphane La Barre, Pascal Morin, Bruno Fiévet et al. "Iodine transfers in the coastal marine environment: the key role of brown algae and of their vanadium-dependent haloperoxidases." Biochimie 88, no. 11 (2006): 1773-1785.
+
+
+
+
+
+
+
+
+Decreasingly related to iodine transport:
+
+https://en.wikipedia.org/wiki/Selenium_yeast =>
+Inorganic selenium-containing ions enter the cell using special transporter proteins.[citation needed] Inside of the yeast cell, the selenium is reduced to selenide.[6] Yeast lacks the machinery for the biosynthesis of selenoproteins, unlike mammals.[7] It appears that yeast produce organoselenium compounds using promiscuous enzymes that do not effectively distinguish between selenium and sulfur.  ...  The selenium accumulator plant Astragalus bisulcatus has a more selective version of the cystine-tRNA ligase that reduces the chances of misincorporation of selenocystine when put in yeast. This genetic modification is, however, not expected to be used in selenium yeast as a food ingredient, but for use in the production of designer proteins in biotechnology.[9]
+
+https://en.wikipedia.org/wiki/Selenium_in_biology =>
+Indicator plants. Certain species of plants are considered indicators of high selenium content of the soil, since they require high levels of selenium to thrive. The main selenium indicator plants are Astragalus species (including some locoweeds), prince's plume (Stanleya sp.), woody asters (Xylorhiza sp.), and false goldenweed (Oonopsis sp.)[50] 
+
+( src: coccolithophores =>)
+https://en.wikipedia.org/wiki/Biomineralization
+https://en.wikipedia.org/wiki/Protist_shell
+Perhaps we could build iodine shells?
+https://en.wikipedia.org/wiki/Radiolaria#Biogeography
+https://en.wikipedia.org/wiki/Radiolaria#Radiolarian_shells
+https://en.wikipedia.org/wiki/Radiolaria#Radiolarian_shells
+^ inspiration!!
+
+https://en.wikipedia.org/wiki/Ectoplasm_(cell_biology)
+https://en.wikipedia.org/wiki/Molecular_phylogenetics
+https://en.wikipedia.org/wiki/Kraken_carinae => Dumack, Kenneth, Julia Schuster, David Bass, and Michael Bonkowski. "A novel lineage of ‘Naked Filose Amoebae’; Kraken carinae gen. nov. sp. nov.(Cercozoa) with a remarkable locomotion by disassembly of its cell body." Protist 167, no. 3 (2016): 268-278.  (https://www.sciencedirect.com/science/article/abs/pii/S1434461016300128)
+
+Some of the original identified brown algaes
+https://en.wikipedia.org/wiki/Sea_lettuce (Ulva)
+https://en.wikipedia.org/wiki/Fucus
+https://en.wikipedia.org/wiki/Chara_(alga)
+https://en.wikipedia.org/wiki/Cladophora
+^ Look into these four species (Cladophora has 1K nucleotide sequences on the [web](https://www.ncbi.nlm.nih.gov/nuccore/?term=txid34125[organism:exp])) and [tag92817] for more ideas about what to dig for.
+https://en.wikipedia.org/wiki/Monostroma
+https://www.algaebase.org/search/genus/detail/?genus_id=33  (Ulva)
+https://en.wikipedia.org/wiki/Chondracanthus_exasperatus
+https://en.wikipedia.org/wiki/Egregia_menziesii
+https://en.wikipedia.org/wiki/Laminaria_digitata
+https://en.wikipedia.org/wiki/AlgaeBase
+
+https://en.wikipedia.org/wiki/Cladophora#Phytoremediation_and_bioindication
+"Phytoremediation and bioindication / Some Cladophora species, including Cladophora fascicularis, have been investigated for their use in phytoremediation. Cladophora fascicularis may contribute to improving water quality in contaminated aquatic ecosystems. This algae is biologically active. Cladophora possesses unprecedented capacities to filter toxins from water such as heavy metals and pollutants and efficiently absorb nutrients, including nitrogen and phosphorus.[5] / Cladophora is known for its blooming activities which are seasonal, (early spring to summer) and indicate their eutrophic abilities as well as that pollution may be present in the environment that they are growing within.[5] "
+
+
+
+</jan-27-workcomp>
