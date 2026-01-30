@@ -6,3 +6,5 @@ data/
 
 /env-check.txt
 /env_check.py
+.tmp_msg.txt
+*.swp

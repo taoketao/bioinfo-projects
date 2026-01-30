@@ -734,6 +734,6 @@ Benner, P., Meier, L., Pfeffer, A., Krüger, K., Oropeza Vargas, J. E., &
     Weuster-Botz, D. (2022). Lab-scale photobioreactor systems: principles, 
     applications, and scalability. Bioprocess and biosystems engineering, 45(5),
   https://link.springer.com/content/pdf/10.1007/s00449-022-02711-1.pdf
-youtube channel stem cells in gatorade
+youtube channel stem cells in gatorade . thought emporium 'turning gatorade into meat'
 
 </jan-14-:WQ>
