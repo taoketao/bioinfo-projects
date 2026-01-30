@@ -911,3 +911,22 @@ https://en.wikipedia.org/wiki/Cladophora#Phytoremediation_and_bioindication
 
 
 </jan-27-workcomp>
+
+<jan-29-workcomp>
+https://en.wikipedia.org/wiki/Iodine-starch_test
+Starch is also useful in detecting the enzyme amylase, which breaks down starch into sugars. Many bacteria like Bacillus subtilis can produce such an enzyme to help scientists identify unknown bacterial samples – the starch–iodine test is one of many tests needed to identify the exact bacterium.[13] The positive test for bacteria that has starch hydrolysis capabilities (able to produce amylase) is the presence of a yellow zone around a colony when iodine is added to detect starch.[14]  
+=>
+organism: https://en.wikipedia.org/wiki/Bacillus_subtilis
+=> 
+"FsrA is a small RNA found in Bacillus subtilis. It is an effector of the iron sparing response, and acts to down-regulate iron-containing proteins in times of poor iron bioavailability.[33][34]"
+  [33]  Gaballa A, Antelmann H, Aguilar C, Khakh SK, Song KB, Smaldone GT, Helmann JD (August 2008). "The Bacillus subtilis iron-sparing response is mediated by a Fur-regulated small RNA and three small, basic proteins". Proceedings of the National Academy of Sciences of the United States of America. 105 (33): 11927–32. Bibcode:2008PNAS..10511927G. doi:10.1073/pnas.0711752105. PMC 2575260. PMID 18697947.
+  [34]  Smaldone GT, Antelmann H, Gaballa A, Helmann JD (May 2012). "The FsrA sRNA and FbpB protein mediate the iron-dependent induction of the Bacillus subtilis lutABC iron-sulfur-containing oxidases". Journal of Bacteriology. 194 (10): 2586–93. doi:10.1128/JB.05567-11. PMC 3347220. PMID 22427629.
+"Both metabolically active and non-metabolically active B. subtilis cells have been shown to reduce gold (III) to gold (I) and gold (0) when oxygen is present. This biotic reduction plays a role in gold cycling in geological systems and could potentially be used to recover solid gold from said systems."
+ 
+=> https://en.wikipedia.org/wiki/Sporulation_in_Bacillus_subtilis
+Homologous networks in eukaryotes: Spores form a part of the life cycles of a diverse range of organisms such as many bacteria, plants, algae, fungi and some protozoa. In Saccharomyces cerevisiae (Kingdom Fungi), the set of early genes activating sporulation is induced by Ime1 (Inducer of Meiosis 1) and a regulator of middle genes is Ndt80p.[4] Similarly, in Dictyostelium discoideum (slime mold), SDF-2 and cytokinins are secreted during late development to trigger signal transduction pathways that lead to an increase in the activity of the cAMP-dependent protein kinase, PKA, which triggers rapid encapsulation as well as ensuring spore dormancy.[5]
+
+=> https://en.wikipedia.org/wiki/Dipicolinic_acid
+"Simple substituted pyridines vary significantly in environmental fate characteristics, such as volatility, adsorption, and biodegradation.[11] Dipicolinic acid is among the least volatile, least adsorbed by soil, and most rapidly degraded of the simple pyridines.[12]"
+
+</jan-29-workcomp>
