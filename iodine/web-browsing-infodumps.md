@@ -1001,5 +1001,75 @@ https://en.wikipedia.org/wiki/Topogenic_sequence
 https://en.wikipedia.org/wiki/Signal_recognition_particle
 
 
+Definitely read this:   
+  https://pmc.ncbi.nlm.nih.gov/articles/PMC2707250/
+  Winter JM, Moore BS. Exploring the chemistry and biology of vanadium-dependent haloperoxidases. J Biol Chem. 2009 Jul 10;284(28):18577-81. doi: 10.1074/jbc.R109.001602. Epub 2009 Apr 10. PMID: 19363038; PMCID: PMC2707250.
+  from [src](https://en.wikipedia.org/wiki/Vanadium_bromoperoxidase)
+It cites many species that do vanadium haloperoxidation, across protist algae, bacteria, and fungi.
+Saved in workcomp::data/exploring-vHPOs.
+Also good lead: vanadate is similar to phosphate. Look into phosphatases. 
+It mentions iodine peroxidases once with source:
+
+Cosse, Audrey, Philippe Potin, and Catherine Leblanc. "Patterns of gene expression induced by oligoguluronates reveal conserved and environment‐specific molecular defense responses in the brown alga Laminaria digitata." New Phytologist 182, no. 1 (2009): 239-250.  https://nph.onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1469-8137.2008.02745.x
+what cites this =>
+- Agarwal, Vinayak, Zachary D. Miles, Jaclyn M. Winter, Alessandra S. Eustáquio, Abrahim A. El Gamal, and Bradley S. Moore. "Enzymatic halogenation and dehalogenation reactions: pervasive and mechanistically diverse." Chemical reviews 117, no. 8 (2017): 5619-5674.
+- Mukherjee, A., and J. S. Patel. "Seaweed extract: biostimulator of plant defense and plant productivity." International Journal of Environmental Science and Technology 17, no. 1 (2020): 553-558.
+- Ye, Naihao, Xiaowen Zhang, Miao Miao, Xiao Fan, Yi Zheng, Dong Xu, Jinfeng Wang et al. "Saccharina genomes provide novel insight into kelp biology." Nature communications 6, no. 1 (2015): 6986.
+- Paul, Carsten, and Georg Pohnert. "Production and role of volatile halogenated compounds from marine algae." Natural product reports 28, no. 2 (2011): 186-195.
+- La Barre, Stéphane, Philippe Potin, Catherine Leblanc, and Ludovic Delage. "The halogenated metabolism of brown algae (Phaeophyta), its biological importance and its environmental significance." Marine drugs 8, no. 4 (2010): 988-1010.
+- Hansel, Colleen M., and Julia M. Diaz. "Production of extracellular reactive oxygen species by marine biota." Annual Review of Marine Science 13, no. 1 (2021): 177-200.
+From vanadium bromoperoxidase wiki:
+-  Hill, V.L.; Manley, S.L. (May 2009). "Release of reactive bromine and iodine from diatoms and its possible role in halogen transfer in polar and tropical oceans". Limnology and Oceanography. 54 (3): 812–822. Bibcode:2009LimOc..54..812H. doi:10.4319/lo.2009.54.3.0812.  https://aslopubs.onlinelibrary.wiley.com/doi/10.4319/lo.2009.54.3.0812
+
+definitely read this: 
+workcomp//data/survey-iodine-portuguese.pdf 
+(and migrate to iodine-transporter-survey.ipynb) for a great prefab for how to run my bioinfo project,
+PLUS two candidate transporters I haven't heard of.
+
+Also this, for future engineering and process:
+- Landini, Martina, Silvia Gonzali, Claudia Kiferle, Massimo Tonacchera, Patrizia Agretti, Antonio Dimida, Paolo Vitti, Amedeo Alpi, Aldo Pinchera, and Pierdomenico Perata. "Metabolic engineering of the iodine content in Arabidopsis." Scientific Reports 2, no. 1 (2012): 338.
+- Abs: "... In particular, we demonstrated that the iodine content in Arabidopsis thaliana can be increased either by facilitating its uptake with the overexpression of the human sodium-iodide symporter (NIS) or through the reduction of its volatilization by knocking-out HOL-1, a halide methyltransferase. Our experiments show that the iodine content in plants results from a balance between intake and retention. A correct manipulation of this mechanism could improve iodine biofortification of crops ..."
+- Saved as workcomp//data/Metabolic-engineering-iodine-content-Arabidopsis.pdf
+- Further quotes from paper: 
+   - "Since plant root transporters for iodine have not yet been isolated, "
+   - "The physiology of iodine in plant is poorly characterized"
+   - "Nitrate is an essential nutrient for plants, but can negatively affect the activity of NIS[19]. Increasing the nitrate level had a positive impact on the 125-I uptake in WT plants, but decreased the iodine content in NIS plants (Fig. 1e), in line with its negative effect on the NIS transporter[19]." [19]: 19. Tonacchera, M. et al. Relative potencies and additivity of perchlorate, thiocyanate, nitrate, and iodide on the inhibition of radioactive iodide uptake by the human sodium iodide symporter. Thyroid 14, 1012–1019 (2004)
+   - "besides HOL-1, there must be a second metabolism for removing the excess iodine from the plant, possibly involving other HOL methyltransferases."
+   - "Rice is indeed the best candidate for iodine biofortification programmes, as this cereal represents the staple food for millions of people in areas where iodine deficiency is a plague. Nowadays, five percent of methyl iodide arise from rice fields worldwide"
+
+
+
+See https://nph.onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1469-8137.2008.02745.x (cited above) finds 50 upregulated genes in laminara under stress. some of these may be releasing iodine from a load. They do not pick out the genes that are most up-regulated; they pick out genes that they they expect would be of interest. ie, they do not look at potential iodine-loading magazine genes like thyroglobulin analogues.
+
+
+
+https://en.wikipedia.org/wiki/Bioadhesive
+=> The small family of proteins that are sometimes referred to as polyphenolic proteins are produced by some marine invertebrates like the blue mussel, Mytilus edulis[10] by some algae'[citation needed], and by the polychaete Phragmatopoma californica.[11] These proteins contain a high level of a post-translationally modified—oxidized—form of tyrosine, L-3,4-dihydroxyphenylalanine (levodopa, L-DOPA)[11] as well as the disulfide (oxidized) form of cysteine (cystine).[10] In the zebra mussel (Dreissena polymorpha), two such proteins, Dpfp-1 and Dpfp-2, localize in the juncture between byssus threads and adhesive plaque.[relevant?][12][relevant?] The presence of these proteins appear, generally, to contribute to stiffening of the materials functioning as bioadhesives.[13][citation needed] The presence of the dihydroxyphenylalanine-moiety arises from action of a tyrosine hydroxylase-type of enzyme;[citation needed] in vitro, it has been shown that the proteins can be cross-linked (polymerized) using a mushroom tyrosinase.[relevant?][14]
+... thanks AI, i guess somehow you found it ...
+
+
+[tag232119]
+
+https://en.wikipedia.org/wiki/Iodine_in_biology#Non-animal_functions
+
+It is common across all domains of life and uses tyrosine bonded to iodine.[23]
+
+Plants, insects, zooplankton, and algae store iodine as mono-iodotyrosine (MIT), di-iodotyrosine (DIT), iodocarbons, or iodoproteins.[24][25][26] 
+
+Thyroid-like hormones may be linked to the development of multicellularity.[29][30] Iodotyrosines are highly reactive with other molecules[31] which may have made them important cell signaling molecules early in evolutionary history.[23] They form spontaneously without need for enzymatic catalysts which may have contributed to their early adoption by organisms,[32][33] although enzymes make the yields significantly higher.[34]
+
+Molecular iodine (I2) is toxic to most single-celled organisms by disrupting the cell membrane[47] however Alphaproteobacteria and Choanoflagellates are resistant.[48] 
+
+  - [23]: Crockford, Susan J. (2009-08-01). "Evolutionary roots of iodine and thyroid hormones in cell–cell signaling". Integrative and Comparative Biology.
+  - [24]: Eales, J. G. (April 1997). "Iodine metabolism and thyroid-related functions in organisms lacking thyroid follicles: are thyroid hormones also vitamins?". Proceedings of the Society for Experimental Biology and Medicine. 
+  - [25]: Johnson, L. G. (1997). "Thyroxine's evolutionary roots". Perspectives in Biology and Medicine. 
+  - [26]: Heyland, Andreas; Moroz, Leonid L. (December 2005). "Cross-kingdom hormonal signaling: an insight from thyroid hormone functions in marine larvae". The Journal of Experimental Biology. 
+  - [31] Harshman, S. (1979-02-09). "Action of staphylococcal alpha-toxin on membranes: some recent advances". Molecular and Cellular Biochemistry
+  - [32]: Nishinaga, Akira.; Cahnmann, Hans J.; Kon, Hideo.; Matsuura, Teruo. (1968-01-01). "Model reactions for the biosynthesis of thyroxine. XII. Nature of a thyroxine precursor formed in the synthesis of thyroxine from diiodotyrosine and its keto acid analog". Biochemistry. 
+  - [33]: Cahnmann, H. J.; Funakoshi, K. (1970-01-06). "Model reactions for the biosynthesis of thyroxine. Nonenzymic formation of 3,5,3'-triiodothyronine from 4-hydroxy-3-iodophenylpyruvic acid, 3,5-diiodotyrosine, and oxygen". Biochemistry. 
+  - [34]: Hulbert, A. J. (November 2000). "Thyroid hormones and their effects: a new perspective". Biological Reviews of the Cambridge Philosophical Society.
+  - [48]: Amachi, Seigo; Muramatsu, Yasuyuki; Akiyama, Yukako; Miyazaki, Kazumi; Yoshiki, Sayaka; Hanada, Satoshi; Kamagata, Yoichi; Ban-nai, Tadaaki; Shinoyama, Hirofumi; Fujii, Takaaki (2005-05-01). "Isolation of Iodide-Oxidizing Bacteria from Iodide-Rich Natural Gas Brines and Seawaters". Microbial Ecology. 
+
+
 </feb-10-workcomp>
 
