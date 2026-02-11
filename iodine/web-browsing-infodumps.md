@@ -930,3 +930,75 @@ Homologous networks in eukaryotes: Spores form a part of the life cycles of a di
 "Simple substituted pyridines vary significantly in environmental fate characteristics, such as volatility, adsorption, and biodegradation.[11] Dipicolinic acid is among the least volatile, least adsorbed by soil, and most rapidly degraded of the simple pyridines.[12]"
 
 </jan-29-workcomp>
+
+
+
+<feb-10-workcomp>
+https://en.wikipedia.org/wiki/Thyroid_hormones
+Little is known about intracellular kinetics of thyroid hormones. However, recently it could be demonstrated that the [crystallin](https://en.wikipedia.org/wiki/Crystallin) [CRYM](https://en.wikipedia.org/wiki/CRYM) binds 3,5,3′-triiodothyronine in vivo.[63] 
+
+https://en.wikipedia.org/wiki/Thyroid_peroxidase
+The "organification of iodine", the incorporation of iodine into thyroglobulin for the production of thyroid hormone, is nonspecific; that is, there is no TPO-bound intermediate, but iodination occurs via reactive iodine species released from TPO. Ascidians (tunicates or sea squirts) and amphioxus, which are close invertebrate relatives of vertebrates, have a primitive homolog of the thyroid known as the endostyle. They do not have a thyroglobulin gene that produce a protein intended specifically for making thyroxine, but do produce thyroxine. Presumably they simply rely on the nonspecific action.[4] 
+
+google ai: "Do genetic codes have introns/etc that guide a developing protein to the right destination, such as which side of a membrane?" =>
+Genetic codes do not use introns to directly guide a fully formed protein to its destination. Introns are non-coding segments that are spliced (cut) out of the RNA before translation, so they do not directly code for the targeting information in the final protein. [1, 2, 3]  
+However, the genetic sequence (exons) does contain special "address labels"—short amino acid sequences or specific structures—that guide the developing protein to the right cellular destination. [4, 5]  
+Here is how the system actually works: 
+1. The Real "Address Labels" (Signal Sequences) 
+Proteins are directed to their correct locations (such as the endoplasmic reticulum, mitochondria, or specific sides of a membrane) by specialized amino acid sequences. 
+
+• ER Targeting: A sequence of hydrophobic amino acids at the beginning (N-terminus) of the protein is recognized by the Signal Recognition Particle (SRP), which brings the protein-ribosome complex to the endoplasmic reticulum (ER). 
+• Membrane Side (Topology): The specific orientation (which side of the membrane) is determined by "start-transfer" or "stop-transfer" sequences within the protein. These sequences act as anchors that determine if the protein passes through the membrane or stays embedded in it. 
+• Peroxisome/Organelle Targeting: A short sequence at the end (C-terminus) of the protein (e.g., SKL) acts as a tag for transport to organelles like peroxisomes. [6, 7, 8, 9]  
+
+2. The Indirect Role of Introns/etc. 
+While introns are removed, they play indirect roles in protein targeting and overall expression: 
+
+• Alternative Splicing: Introns allow for alternative splicing, where different exons are joined together. This allows a single gene to create multiple versions of a protein with different destination tags. 
+• mRNA Localization: Specific introns can influence where the messenger RNA (mRNA) is localized within the cell, which in turn influences where the protein is synthesized. 
+• Expression Regulation: Certain introns near the start of a gene act as "accelerators" for gene expression, controlling how much protein is produced. [10, 13, 14, 15, 16]  
+
+Summary Table 
+
+| Feature [1, 5, 6, 10, 15] | Role in Protein Targeting  |
+| --- | --- |
+| Exons (Coding) | Contain "signal sequences" (address labels) that direct proteins to membranes or organelles.  |
+| Introns (Non-coding) | Removed before protein formation, but affect mRNA localization and alternative splicing.  |
+| Stop-transfer sequence | Anchors the protein in the membrane and determines orientation.  |
+
+In summary, the instructions to guide a protein are embedded in the exon (coding) sequences of the DNA, not in the introns themselves. [17, 18, 19]  
+
+AI responses may include mistakes.
+
+[1] https://researchguides.library.vanderbilt.edu/c.php?g=69346&p=816436%E2%80%8C
+[2] https://www.genomicseducation.hee.nhs.uk/glossary/introns/
+[3] https://www.ncl.ac.uk/press/articles/archive/2018/10/proofreadingerrorscauseinheritedblindness/
+[4] https://www.ebsco.com/research-starters/health-and-medicine/genetic-code-plants
+[5] https://fiveable.me/cell-biology/unit-16/protein-targeting-organelles/study-guide/4KK5yLRGwxGTelw1
+[6] https://www.khanacademy.org/science/biology/gene-expression-central-dogma/translation-polypeptides/a/protein-targeting-and-traffic
+[7] https://www.pearson.com/channels/cell-biology/asset/04798893/a-protein-contains-5-start-stop-transfer-sequences-how-many-times-will-this-prot
+[8] https://www.scilifelab.se/news/orientation-of-membrane-proteins-remains-fixed/
+[9] https://pubmed.ncbi.nlm.nih.gov/6313206/
+[10] https://learn.genetics.utah.edu/content/basics/geneanatomy/
+[11] https://www.intechopen.com/chapters/60533
+[12] https://www.vaia.com/en-us/textbooks/biology/biology-for-ap-courses-0-edition/chapter-15/problem-56-only-a-fraction-of-dna-encodes-proteins-the-nonco/
+[13] https://genomequebec.com/en/educative-content/educational-space/learn-more/du-gene-a-la-proteine/
+[14] https://researchguides.library.vanderbilt.edu/c.php?g=69346&p=816436%E2%80%8C
+[15] https://pmc.ncbi.nlm.nih.gov/articles/PMC4742320/
+[16] https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2018.00672/full
+[17] https://www.bcm.edu/news/hnrnpm-a-guardian-of-the-integrity-of-cellular-protein-production
+[18] https://www.nature.com/articles/441398a
+[19] https://www.science.org/doi/pdf/10.1126/science.263.5147.609
+
+
+
+=>
+gai search: "start-transfer, stop-transfer membrane topology"
+
+https://en.wikipedia.org/wiki/Protein_targeting
+https://en.wikipedia.org/wiki/Signal_peptide
+https://en.wikipedia.org/wiki/Topogenic_sequence
+
+
+</feb-10-workcomp>
+
