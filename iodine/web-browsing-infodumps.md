@@ -998,6 +998,7 @@ gai search: "start-transfer, stop-transfer membrane topology"
 https://en.wikipedia.org/wiki/Protein_targeting
 https://en.wikipedia.org/wiki/Signal_peptide
 https://en.wikipedia.org/wiki/Topogenic_sequence
+https://en.wikipedia.org/wiki/Signal_recognition_particle
 
 
 </feb-10-workcomp>
