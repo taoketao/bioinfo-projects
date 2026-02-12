@@ -1073,3 +1073,71 @@ Molecular iodine (I2) is toxic to most single-celled organisms by disrupting the
 
 </feb-10-workcomp>
 
+
+
+
+<feb-11-workcomp>
+tabs prcsing
+
+https://en.wikipedia.org/wiki/Tyrosinase
+polyphenolic proteins   google search
+https://en.wikipedia.org/wiki/Quinone
+https://en.wikipedia.org/wiki/Bioadhesive
+https://en.wikipedia.org/wiki/Diiodotyrosine
+https://en.wikipedia.org/wiki/Category:Iodinated_tyrosine_derivatives
+google search: what known protein across species has the highest concentration of tyrosine residues? -nitration -food
+https://en.wikipedia.org/wiki/Thyroglobulin
+https://rest.uniprot.org/uniprotkb/P01266.fasta
+    >sp|P01266|THYG_HUMAN Thyroglobulin OS=Homo sapiens OX=9606 GN=TG PE=1 SV=5
+https://rest.uniprot.org/uniprotkb/P02533.fasta
+    >sp|P02533|K1C14_HUMAN Keratin, type I cytoskeletal 14 OS=Homo sapiens OX=9606 GN=KRT14 PE=1 SV=4
+https://www.uniprot.org/uniprotkb/P02533/entry 
+    keratin
+https://link.springer.com/article/10.1007/s13762-019-02442-z
+    Seaweed extract: biostimulator of plant defense and plant productivity. 2019. A. Mukherjee & J. S. Patel
+https://pubs.acs.org/doi/abs/10.1021/acs.chemrev.6b00571    Enzymatic Halogenation and Dehalogenation Reactions: Pervasive and Mechanistically Diverse. Agarwal et al. 2017.
+https://www.mdpi.com/1660-3397/8/4/988
+    The Halogenated Metabolism of Brown Algae (Phaeophyta), Its Biological Importance and Its Environmental Significance. 2010. La Barre et al.
+https://pubs.rsc.org/en/content/articlelanding/2011/np/c0np00043d/unauth
+    Production and role of volatile halogenated compounds from marine algae. Paul et al. 2010.
+https://www.annualreviews.org/content/journals/10.1146/annurev-marine-041320-102550
+    Production of Extracellular Reactive Oxygen Species by Marine Biota. Hansel and Diaz. 2021.
+https://nph.onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1469-8137.2008.02745.x
+    Patterns of gene expression induced by oligoguluronates reveal conserved and environment-specific molecular defense responses in the brown alga Laminaria digitata. Cosse et al. 2009. New Phytologist.
+https://aslopubs.onlinelibrary.wiley.com/doi/epdf/10.4319/lo.2009.54.3.0812
+    Release of reactive bromine and iodine from diatoms and its possible role in halogen transfer in polar and tropical oceans. Hill and Manley. 2009. Limnology nad oceanography.
+https://pubmed.ncbi.nlm.nih.gov/6651828/
+    On the mechanism of iodination of tyrosine. Dunford and Ralston. 1983. from google search: chemistry of iodine and tyrosine.
+https://en.wikipedia.org/wiki/Recombinant_human_parathyroid_hormone
+https://en.wikipedia.org/wiki/Recombinant_DNA
+start-transfer, stop-transfer membrane topology   google search
+https://en.wikipedia.org/wiki/Exon
+file:///...es6b01415_si_001.pdf
+    Volatile gas production by methyl halide transferase: an in situ reporter of microbial gene expression in soil
+https://scholar.google.com/scholar?cluster=344815542008069778&hl=en&as_sdt=0,5
+    scholar search: .... halotransferase
+
+https://www.usgs.gov/faqs/what-a-geographic-information-system-gis
+https://en.wikipedia.org/wiki/Category:Disaster_preparedness_in_the_United_States
+https://en.wikipedia.org/wiki/National_Response_Framework
+https://en.wikipedia.org/wiki/United_States_Public_Health_Service_Commissioned_Corps
+https://en.wikipedia.org/wiki/United_States_Department_of_Commerce
+https://en.wikipedia.org/wiki/National_Oceanic_and_Atmospheric_Administration
+https://en.wikipedia.org/wiki/National_Weather_Service
+https://bulletin.sfsu.edu/colleges/science-engineering/biology/#graduateprogramstext
+https://bulletin.sfsu.edu/colleges/health-social-sciences/physical-therapy-clinical-laboratory-science/graduate-certificate-clinical-laboratory-science/
+
+
+
+
+
+
+
+
+
+
+
+
+
+</feb-11-workcomp>
+
