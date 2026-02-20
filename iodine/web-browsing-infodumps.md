@@ -1039,7 +1039,7 @@ Also this, for future engineering and process:
 
 
 
-See https://nph.onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1469-8137.2008.02745.x (cited above) finds 50 upregulated genes in laminara under stress. some of these may be releasing iodine from a load. They do not pick out the genes that are most up-regulated; they pick out genes that they they expect would be of interest. ie, they do not look at potential iodine-loading magazine genes like thyroglobulin analogues.
+See https://nph.onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1469-8137.2008.02745.x (cited above) finds 50 upregulated genes in laminara under stress. some of these may be releasing iodine from a load. They do not pick out the genes that are most up-regulated; they pick out genes that they they expect would be of interest. ie, they do not look at potential iodine collecting & storage genes like thyroglobulin analogues.
 
 
 
@@ -1127,17 +1127,19 @@ https://en.wikipedia.org/wiki/National_Weather_Service
 https://bulletin.sfsu.edu/colleges/science-engineering/biology/#graduateprogramstext
 https://bulletin.sfsu.edu/colleges/health-social-sciences/physical-therapy-clinical-laboratory-science/graduate-certificate-clinical-laboratory-science/
 
-
-
-
-
-
-
-
-
-
-
-
-
 </feb-11-workcomp>
 
+
+
+
+
+
+
+
+
+
+
+
+<feb-20-workcomp>
+gemini scrapes the list for all mentioned species. Results put into gemini-listing-species.md.
+</feb-20-workcomp>

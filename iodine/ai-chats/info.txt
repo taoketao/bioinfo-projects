@@ -1,0 +1,7 @@
+[2/20/26] 
+
+
+gemini-listing-species.md   2/20/2026  initially to spare self the methodical painstaking work of building a list of the species in web-infodumps. It spun out just a hint.
+
+
+gpt-iodine-species-basics.md   1/14/2026 file created; unsure exactly what the point was but it seems to have been exploratory. 
