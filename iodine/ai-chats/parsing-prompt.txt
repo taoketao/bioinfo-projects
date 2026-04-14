@@ -1,0 +1,5 @@
+Hello Gemini. Please help me parse this 1000-line markdown document and filter out species into a list 
+
+Specifically, please list every species mentioned; please list [scientific name] (if it's there, else ---), then [common name] (if it's there, else ---). Also in the entry, mention the total number of times it is listed in the document (for example, [x14 or x02]); that is, if it appears more than once, condense it into one line, and if you make a mistake, list them at the end of the whole list. Also in the entry, if there is a context in which it appears, say up to four words demarcated by curly braces {} (else ---). Also in the entry, if there is a single unifying common reason why scientist care about the study, mention that in up to four words in arrow brackets (else ---). Also in the entry, if a Wikipedia link was provided, add that (else, omit). 
+
+Confirm you can help and say whether you'd prefer a copy-paste of the markdown or an uploaded file.

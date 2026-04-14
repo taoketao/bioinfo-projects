@@ -1143,3 +1143,22 @@ https://bulletin.sfsu.edu/colleges/health-social-sciences/physical-therapy-clini
 <feb-20-workcomp>
 gemini scrapes the list for all mentioned species. Results put into gemini-listing-species.md.
 </feb-20-workcomp>
+
+
+<march-6-workcomp>
+See ai-chats/gpt-isolating-product. 
+
+https://en.wikipedia.org/wiki/Ion-exchange_resin
+^ a way to extract the substance at end
+
+Another way: extruding iodated particles and use electrophoresis.
+https://content.instructables.com/FSJ/0K9P/GQKLPCIB/FSJ0K9PGQKLPCIB.jpg
+from 
+https://www.instructables.com/Gel-electrophoresis-system-mini/
+
+Periodically turn on an electrode to filter charged iodine
+
+Indeed, getting the iodine into cell is easy.
+Turning it into something concentrated is medium.
+Extracting it efficiently is hard.
+</march-6-workcomp>
