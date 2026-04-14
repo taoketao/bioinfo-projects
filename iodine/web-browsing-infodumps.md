@@ -1162,3 +1162,27 @@ Indeed, getting the iodine into cell is easy.
 Turning it into something concentrated is medium.
 Extracting it efficiently is hard.
 </march-6-workcomp>
+
+
+
+
+
+
+<april-14-workcomp>
+https://www.uniprot.org/uniprotkb/A0A3G3BM28/entry
+    Vanadium-dependent iodine peroxidase, saccharina japonica
+https://www.uniprot.org/taxonomy/2876
+    Dictyota dichotoma
+https://en.wikipedia.org/wiki/Dictyota_dichotoma
+https://en.wikipedia.org/wiki/Dictyota
+https://en.wikipedia.org/wiki/Ectocarpus
+https://en.wikipedia.org/wiki/Brown_algae
+https://blast.ncbi.nlm.nih.gov/Blast.cgi
+    search: FASTA of   sp|P0AEJ4|ENVZ_ECOLI Sensor histidine kinase.
+https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2876
+    Dictyota dichotoma var. intricata
+https://blast.ncbi.nlm.nih.gov/Blast.cgi#alnHdr_CAN0288239
+    search: FASTA of vanadium-dependent iodine peroxidase [Saccharina japonica] Sequence ID: AYP65253.1
+https://www.ncbi.nlm.nih.gov/Structure/icn3d/full.html?from=blast&blast_rep_id=AYP65253&query_id=Query_3706967&command=view+annotations;set+annotation+cdd;set+annotation+site;set+view+detailed+view;select+chain+!A;show+selection&log$=align&blast_rank=1&RID=XVXGD0G9014
+    alphafold of vIPO
+</april-14-workcomp>
