@@ -198,6 +198,25 @@ you could totally engineer this. it'd be a lot of r&d, but it's totally possible
  Further project: look into phosphate transporters and run bioinfo. But realistically, I need to have a much broader understanding of the cell functions (eg ways to concentrate the product in the cell, by vacuole exit-blocking, forcible uptake, irreversible polymerization). Any ways I cook up today won't stand the test of reality -- but I'm on that path. Patience, now.
  
 
+ session links
+
+ Phosphate - Wikipedia
+ https://en.wikipedia.org/wiki/Phosphate#Biochemistry_of_phosphates
+
+ Arbuscular mycorrhiza - Wikipedia
+ https://en.wikipedia.org/wiki/Arbuscular_mycorrhiza
+
+ Total dissolved solids - Wikipedia
+ https://en.wikipedia.org/wiki/Total_dissolved_solids
+
+ SLC20A2 - Wikipedia
+ https://en.wikipedia.org/wiki/SLC20A2
+
+
+
+
+
+
 
 
 
