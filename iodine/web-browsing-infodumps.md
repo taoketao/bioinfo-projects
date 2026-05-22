@@ -1241,3 +1241,10 @@ https://en.wikipedia.org/wiki/Iodidimonas
 
 
 </may-17-workcomp>
+
+
+<may-22-wq>
+scraped from Ellen's linkedin. see the organism.
+Created, sequenced, and phenotyped gene-knockout mutants to investigate the involvement of the SOD1 and HAD genes in the N. oceanica algaenan biosynthetic pathway.
+</may-22-wq>
+
