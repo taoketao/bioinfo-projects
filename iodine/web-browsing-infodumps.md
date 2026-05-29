@@ -1186,3 +1186,65 @@ https://blast.ncbi.nlm.nih.gov/Blast.cgi#alnHdr_CAN0288239
 https://www.ncbi.nlm.nih.gov/Structure/icn3d/full.html?from=blast&blast_rep_id=AYP65253&query_id=Query_3706967&command=view+annotations;set+annotation+cdd;set+annotation+site;set+view+detailed+view;select+chain+!A;show+selection&log$=align&blast_rank=1&RID=XVXGD0G9014
     alphafold of vIPO
 </april-14-workcomp>
+
+<may-17-workcomp>
+https://en.wikipedia.org/wiki/Iodidimonas
+https://en.wikipedia.org/wiki/Iodidimonas
+https://en.wikipedia.org/wiki/Iodidimonas
+https://en.wikipedia.org/wiki/Iodidimonas
+https://en.wikipedia.org/wiki/Iodidimonas
+https://en.wikipedia.org/wiki/Iodidimonas
+https://en.wikipedia.org/wiki/Iodidimonas
+https://en.wikipedia.org/wiki/Iodidimonas
+https://en.wikipedia.org/wiki/Iodidimonas
+from: 
+Romy Chakraborty
+Romy Chakraborty
+Romy Chakraborty
+
+
+Microbes to Ecosystems – Lawrence Berkeley National Laboratory
+https://www.lbl.gov/research/microbes-to-ecosystems/
+
+Team
+https://mcafes.lbl.gov/team/
+
+Publications
+https://mcafes.lbl.gov/publications/
+
+‪Romy Chakraborty‬ - ‪Google Scholar‬
+https://scholar.google.com/citations?hl=en&user=6VVpd_kAAAAJ&view_op=list_works&sortby=pubdate
+
+View article
+https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6VVpd_kAAAAJ&sortby=pubdate&citation_for_view=6VVpd_kAAAAJ:zA6iFVUQeVQC
+
+Deep-Sea Oil Plume Enriches Indigenous Oil-Degrading Bacteria | Science
+https://www.science.org/doi/abs/10.1126/science.1195979
+
+Adam P. Arkin | Biosciences | Berkeley Lab – Biosciences Area
+https://biosciences.lbl.gov/profiles/aparkin/
+
+People – ENIGMA
+https://enigma.lbl.gov/people/
+
+Zhou, Jizhong – ENIGMA
+https://enigma.lbl.gov/zhou-jizhong/
+
+Chandonia, John-Marc – ENIGMA
+https://enigma.lbl.gov/chandonia-john-marc/
+
+bioepic - Google Search
+https://www.google.com/search?client=firefox-b-1-e&q=bioepic
+
+Iodidimonas - Wikipedia
+https://en.wikipedia.org/wiki/Iodidimonas
+
+
+</may-17-workcomp>
+
+
+<may-22-wq>
+scraped from Ellen's linkedin. see the organism.
+Created, sequenced, and phenotyped gene-knockout mutants to investigate the involvement of the SOD1 and HAD genes in the N. oceanica algaenan biosynthetic pathway.
+</may-22-wq>
+
