@@ -1,0 +1,544 @@
+README: 
+  This is a reference database for documenting species that I find 
+  that might be useful for the iodine project, or other projects in this
+  research front of (roughly) algal engineering for bioextraction.
+Resources:
+  about making blocks and paragraphs: https://yaml-multiline.info/
+  wikipedia entry: https://en.wikipedia.org/wiki/YAML
+  YAML cheat sheet: https://quickref.me/yaml.html
+  Visual Studio Code Windows cheat sheet: https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
+  gemini rationale:
+    prompt: test
+    prompt: 
+      JSON vs XML (vs other): 
+        What are the differences, and what is best about each for making a 
+        hand-typed document to record information if I want to be able to 
+        programmatically parse it later? Say, I'm documenting pet species,and 
+        want to be able to include both Tarantula or 100s of kinds of Cat. We 
+        note that they are Felix genus, and want to later be able to bang out 
+        a script that reports every one that's hypoallergenic. specifically, 
+        which is generally easier for a person to type out, for efficiency?
+    response 1: 
+        When choosing a data format for a hand-typed document that you plan to parse with a script later, your main constraints are typing speed (less boilerplate), human readability, and robust data nesting (to handle diverse structures like a flat Tarantula entry vs. highly detailed Cat lineages).
+        For your specific use case, YAML is the absolute best format to hand-type, while JSON is a solid runner-up. XML is the worst option for manual data entry.
+        Here is how they stack up for a human typing out a pet species database.
+        ------------------------------
+        ## The Contenders Ranked for Hand-Typing## 1. YAML (YAML Ain't Markup Language) — 🏆 Best for Typing
+        YAML was designed from the ground up to be human-readable and optimized for manual entry. It eliminates almost all structural syntax like brackets, quotes, and commas, relying entirely on indentation (spaces).
+
+        * Why it's best for typing: Highest efficiency. You type minimal characters.
+        * The Catch: Indentation must be perfectly consistent. Missing a space can break the file structure.
+
+        How your pet database looks in YAML:
+
+        - species: Domestic Cat
+          genus: Felis
+          hypoallergenic: false
+          breeds:
+            - name: Siamese
+              coat: Short
+            - name: Balinese
+              hypoallergenic: true  # Overrides parent for this specific breed
+
+        - species: Mexican Redknee Tarantula
+          genus: Brachypelma
+          hypoallergenic: true      # Technically no fur!
+          venom_potency: Low
+
+        ## 2. JSON (JavaScript Object Notation) — 🥈 The Middle Ground
+        JSON is highly structured. While it is incredibly easy for a script to parse, it requires a lot of "syntax tax" from the person typing it.
+
+        * Why it's okay: Every programming language parses it instantly. It forces a clean, predictable structure.
+        * The Catch for typing: You have to type double quotes around every single key and string, add commas after almost every line, and manage closing brackets. Forgetting a comma or a quote breaks the script.
+
+        How your pet database looks in JSON:
+
+        [
+          {
+            "species": "Domestic Cat",
+            "genus": "Felis",
+            "hypoallergenic": false,
+            "breeds": [
+              { "name": "Siamese", "coat": "Short" },
+              { "name": "Balinese", "hypoallergenic": true }
+            ]
+          },
+          {
+            "species": "Mexican Redknee Tarantula",
+            "genus": "Brachypelma",
+            "hypoallergenic": true
+          }
+        ]
+
+        ## 3. XML (Extensible Markup Language) — ❌ Worst for Typing
+        XML uses closing tags (<tag>...</tag>). For hand-typing hundreds of entries, it is incredibly tedious and highly prone to typos.
+
+        * Why it's bad for typing: High "boilerplate" code. You spend more time typing brackets and repeating tag names than typing your actual data. It is visually noisy to read through.
+
+        How your pet database looks in XML:
+
+        <pets>
+            <pet>
+                <species>Domestic Cat</species>
+                <genus>Felis</genus>
+                <hypoallergenic>false</hypoallergenic>
+                <breeds>
+                    <breed>
+                        <name>Siamese</name>
+                        <coat>Short</coat>
+                    </breed>
+                </breeds>
+            </pet>
+        </pets>
+
+        ------------------------------
+        ## Feature Comparison Matrix
+
+        | Feature | YAML | JSON | XML |
+        |---|---|---|---|
+        | Typing Efficiency | 🚀 Highest (No brackets/quotes) | ⚠️ Medium (Heavy quotes/commas) | 🐌 Lowest (Verbose closing tags) |
+        | Readability | Clean, like a text outline | Clean, but cluttered with syntax | Heavy, visually cluttered |
+        | Handling Diverse Data | Great (Keys can vary per entry) | Great (Keys can vary per entry) | Great (Highly customizable attributes) |
+        | Comments Support | Yes (# comment) | No (Breaks standard JSON) | Yes (<!-- comment -->) |
+        | Script Parsing | Easy (Requires a library like PyYAML) | Native (Built into Python, JS, etc.) | Tedious (Requires DOM/SAX parsers) |
+
+        ------------------------------
+        ## Handling the "Tarantula vs. 100s of Cats" Dilemma
+        Both YAML and JSON handle "schema-less" data beautifully. Because they use key-value objects, a Tarantula entry does not need to have the same fields as a Cat entry. Your script can easily loop through the data, check if genus == "Felis", and then look for a hypoallergenic flag, completely ignoring fields unique to spiders (like web_type or leg_span).
+        ## Verdict & Recommendation
+
+          1. Write in YAML: For sheer typing efficiency and the ability to add side notes via comments, type your document as a .yaml file.
+          2. Parse or Convert Natively: Python, JavaScript, and Ruby can read YAML directly with a single added library. Alternatively, you can use free online tools to convert your finished YAML file into a JSON file with one click when you are done typing.
+
+        Would you like a quick example of a Python script showing exactly how to load this data and filter for the hypoallergenic Felis species?
+Data-Format:
+  Alphabetical sequence of species, followed by "item"s that have useful info about them.
+  Items have this general format:
+    item: {description of the information tidbit}
+      keyword: {the name that qualifies this }
+      src: {source; see References}
+      context: {try to copy the context}
+    
+    or, the minimum item.
+
+    item: {whatever I want to write}
+References:
+  - keyword: ABR
+    title: Algal Biorefineries, Volume 1; Cultivation of Cells and Products
+    year: 2014
+    editors: Rakesh Bajpai, Ales Prokop, Mark Zappi
+    chapters: [
+      3: 
+        title: Low Cost Nutrients for Algae Cultivation
+        authors: Manjinder Singh and K. C. Das
+        sections: [
+          3: Nutrient Requirements for Algae Cultivation
+            3.1: Water
+            3.2: Carbon
+            3.3: Nitrogen
+            3.4: Phosphorus
+        ]
+    ]
+    formatting examples:
+      c12: chapter 12
+      c3s4.5: chapter 3, section 4, subsection 5. 
+  - keyword: gls
+    title: 
+      info scraped directly from file gemini-listing-species.md, which itself is a manually-agentic parse of file web-browsing-infodumps.md.
+    sections:
+      - prompt 1
+      - response 1:
+        - Species & Biological Entities List
+        - Group / Taxonomic Mentions (Aggregated)
+        - Review / Discrepancies
+      - prompt 2
+      - response 2:
+        - Species & Biological Entities List (Final Aggregate)
+        - Group / Taxonomic Mentions (Final Aggregate)
+        - Key Summary of Scientific Significance
+        - Review / Discrepancy notes
+      - prompt 3
+      - response 3:
+        - Master Species & Biological Entities List
+        - Evolutionary Landmarks (Organism Groups)
+        - Data Insights for Engineering
+      - prompt 4
+      - follow up
+  - keyword: its
+    title: 
+      iodine-transporter-survey.md
+    notes:
+      90% manually scraped as of 6/8/2026; info merged to here.
+
+
+
+
+
+
+    
+    
+        
+Data:
+  Agrocybe aegerita:
+    - taxonomy:
+        keyword: Agrocybe aegerita
+        scientific name: Agrocybe aegerita
+        common name: Chestnut Mushroom
+        organism type: Fungus
+    - role in Culinary, gls:
+        frequency in web-browsing-infodumps x gemini listing analysis: [x01]
+        why is it studied: Culinary
+        src: gls response 3
+        wikipedia link: https://en.wikipedia.org/wiki/Cyclocybe_aegerita
+        context:
+          Heme-thiolate enzyme (Scientific Significance: Peroxidase variety)
+  amphioxi:
+    - role as having endostyle, the mammal immune precursor:
+        src: its 6/8/2026, tag514432
+  Anabaena:
+    - role in nitrogen fixing:
+      keyword: Anabaena
+      src: ABR c03s3.3, Nitrogen
+      context: 
+        The biological nitrogen fixation of diazotrophic microbes such as Rhizobia, Azospirillum, Anabaena and Nostos, via reduction of dinitrogen to ammonium, was the only route [until Haber-Bosch].
+  Arabidopsis thaliana:
+    - taxonomy:
+        keyword: Arabidopsis thaliana
+        scientific name: Arabidopsis thaliana
+        common name: Thale Cress
+        organism type: Weed / Flower
+    - role in Model Plant Biology, gls:
+        frequency in web-browsing-infodumps x gemini listing analysis: [x01]
+        why is it studied: Model Plant Biology
+        src: gls response 3
+        wikipedia link: https://en.wikipedia.org/wiki/Arabidopsis_thaliana
+        context:
+          Iodine engineering (Scientific Significance: Biofortification/NIS study)
+  Armoracia rusticana:
+    - taxonomy:
+        keyword: Armoracia rusticana
+        scientific name: Armoracia rusticana
+        common name: Horseradish
+        organism type: Root Vegetable
+    - role in Culinary / Enzyme, gls:
+        frequency in web-browsing-infodumps x gemini listing analysis: [x05]
+        why is it studied: Culinary / Enzyme
+        src: gls response 3
+        wikipedia link: https://en.wikipedia.org/wiki/Horseradish_peroxidase
+        context:
+          Haloperoxidase source (Scientific Significance: Biomedical HRP applications)
+  ascidia:
+    - role as having endostyle, the mammal immune precursor:
+        src: its 6/8/2026, tag514432
+  Astragalus bisulcatus:
+    - taxonomy:
+        keyword: Astragalus bisulcatus
+        scientific name: Astragalus bisulcatus
+        common name: Milkvetch
+        organism type: Flowering Plant
+    - role in Toxicology / Soil, gls:
+        frequency in web-browsing-infodumps x gemini listing analysis: [x01]
+        why is it studied: Toxicology / Soil
+        src: gls response 3
+        wikipedia link: https://en.wikipedia.org/wiki/Astragalus_bisulcatus
+        context:
+          Selenium accumulator (Scientific Significance: Se/S discrimination)
+  Azotobacter:
+    - taxonomy:
+        keyword: Azotobacter
+        scientific name: Azotobacter
+        common name: ---
+        organism type: Soil Bacteria
+    - role in Fertilizer / Nitrogen Fixing, gls:
+        frequency in web-browsing-infodumps x gemini listing analysis: [x01]
+        why is it studied: Fertilizer / N-Fixing
+        src: gls response 3
+        wikipedia link: https://en.wikipedia.org/wiki/Azotobacter
+        context:
+          Vanadium nitrogenase (Scientific Significance: Vanadium enzyme mechanics)  
+  Azospirillum:
+    - role in nitrogen fixing:
+      keyword: Azospirillum
+      src: ABR c03s3.3, Nitrogen
+      context: 
+        The biological nitrogen fixation of diazotrophic microbes such as Rhizobia, Azospirillum, Anabaena and Nostos, via reduction of dinitrogen to ammonium, was the only route [until Haber-Bosch].
+  Bacillus subtilis:
+    - taxonomy:
+        keyword: Bacillus subtilis
+        scientific name: Bacillus subtilis
+        common name: Hay Bacillus
+        organism type: Soil Bacteria
+    - role in Lab Model Organism, gls:
+        frequency in web-browsing-infodumps x gemini listing analysis: [x03]
+        why is it studied: Lab Model Organism
+        src: gls response 3
+        wikipedia link: https://en.wikipedia.org/wiki/Bacillus_subtilis
+        context:
+          Starch-iodine test (Scientific Significance: Gold cycling/metabolism)
+    - role as noted Organism found in 4/2026 alignment:
+        src: its 6/8/2026, tag707153 ... see ./data/XVXGD0G9014-Alignment--vIPO-4-13-26-hits*.
+  Capnocytophaga canimorsus:
+    - src: its 6/8/2026
+  Capsicum chinense:
+    - taxonomy:
+        keyword: Capsicum chinense
+        scientific name: Capsicum chinense
+        common name: Habanero Pepper
+        organism type: Hot Pepper
+    - role in Agriculture / Spice, gls:
+        frequency in web-browsing-infodumps x gemini listing analysis: [x01]
+        why is it studied: Agriculture / Spice
+        src: gls response 3
+        wikipedia link: https://en.wikipedia.org/wiki/Capsicum_chinense
+        context:
+          Pathogen resistance (Scientific Significance: Defense gene expression)
+  Chara:
+    - taxonomy:
+        keyword: Chara
+        scientific name: Chara
+        common name: Stonefruit
+        organism type: Freshwater Algae
+    - role in Plant Evolution, gls:
+        frequency in web-browsing-infodumps x gemini listing analysis: [x01]
+        why is it studied: Plant Evolution
+        src: gls response 3
+        wikipedia link: https://en.wikipedia.org/wiki/Chara_(alga)
+        context:
+          Nucleotide sequence (Scientific Significance: Land plant ancestor model)
+  Cladophora fascicularis:
+    - taxonomy:
+        keyword: Cladophora fascicularis
+        scientific name: Cladophora fascicularis
+        common name: Sea Moss
+        organism type: Green Algae
+    - role in Bio-indicator, gls:
+        frequency in web-browsing-infodumps x gemini listing analysis: [x02]
+        why is it studied: Bio-indicator
+        src: gls response 3
+        wikipedia link: https://en.wikipedia.org/wiki/Cladophora
+        context:
+          Heavy metal uptake (Scientific Significance: Phytoremediation capacity)
+  Dreissena polymorpha:
+    - taxonomy:
+        keyword: Dreissena polymorpha
+        scientific name: Dreissena polymorpha
+        common name: Zebra Mussel
+        organism type: Invasive Clam
+    - role in Invasive Control, gls:
+        frequency in web-browsing-infodumps x gemini listing analysis: [x01]
+        why is it studied: Invasive Control
+        src: gls response 3
+        wikipedia link: https://en.wikipedia.org/wiki/Zebra_mussel
+        context:
+          Adhesive plaque (Scientific Significance: Byssus thread protein)
+  Emiliania huxleyi:
+    - taxonomy:
+        keyword: Emiliania huxleyi
+        scientific name: Emiliania huxleyi
+        common name: Coccolithophore
+        organism type: Microalgae
+    - role in Carbon Cycle, gls:
+        frequency in web-browsing-infodumps x gemini listing analysis: [x02]
+        why is it studied: Carbon Cycle
+        src: gls response 3
+        wikipedia link: https://en.wikipedia.org/wiki/Emiliania_huxleyi
+        context:
+          Iodine growth response (Scientific Significance: Intracellular accumulation)
+  Homo Sapiens:
+    - role as noted Organism found in 4/2026 alignment:
+        src: its 6/8/2026, tag707153 ... see ./data/XVXGD0G9014-Alignment--vIPO-4-13-26-hits*.
+  horseradish:
+    - role as vHPO?:
+      errata: definitely a mistaken novice understanding.
+      src: its 6/8/2026, tag514432
+  Isochrysis galbana:
+    - taxonomy:
+        keyword: Isochrysis galbana
+        scientific name: Isochrysis galbana
+        common name: ---
+        organism type: Microalgae
+    - role in Aquaculture Feed, gls:
+        frequency in web-browsing-infodumps x gemini listing analysis: [x03]
+        why is it studied: Aquaculture Feed
+        src: gls response 3
+        wikipedia link: https://en.wikipedia.org/wiki/Isochrysis_galbana
+        context:
+          High iodine tolerance (Scientific Significance: Iodide uptake mechanism)
+  Kraken carinae:
+    - taxonomy:
+        keyword: Kraken carinae
+        scientific name: Kraken carinae
+        common name: ---
+        organism type: Amoeba
+    - role in Protist Diversity, gls:
+        frequency in web-browsing-infodumps x gemini listing analysis: [x01]
+        why is it studied: Protist Diversity
+        src: gls response 3
+        wikipedia link: ---
+        context:
+          Locomotion study (Scientific Significance: Body disassembly biology)
+  Laminaria digitata:
+    - taxonomy:
+        keyword: Laminaria digitata
+        scientific name: Laminaria digitata
+        common name: Oarweed / Kelp
+        organism type: Brown Algae
+    - role in Food / Biofuel, gls:
+        frequency in web-browsing-infodumps x gemini listing analysis: [x05]
+        why is it studied: Food / Biofuel
+        src: gls response 3
+        wikipedia link: https://en.wikipedia.org/wiki/Laminaria
+        context:
+          Defense elicitation (Scientific Significance: Innate immunity evolution)
+  Laminara Digitalis:
+    - role as noted Organism found in 4/2026 alignment:
+        src: its 6/8/2026, tag707153 ... see ./data/XVXGD0G9014-Alignment--vIPO-4-13-26-hits*.
+  Laminaria hyperborea:
+    - a Kelp:
+      src: its 6/8/2026
+      context: "General links: ... Productive Species: Laminaria digitata , Laminaria hyperborea"
+  lamprey:
+    - role as having endostyle, the mammal immune precursor:
+        src: its 6/8/2026, tag514432
+  lancelet:
+    - role as having endostyle, the mammal immune precursor:
+        src: its 6/8/2026, tag514432
+  Monosiga brevicollis:
+    - taxonomy:
+        keyword: Monosiga brevicollis
+        scientific name: Monosiga brevicollis
+        common name: ---
+        organism type: Choanoflagellate
+    - role in Origin of Animals, gls:
+        frequency in web-browsing-infodumps x gemini listing analysis: [x01]
+        why is it studied: Origin of Animals
+        src: gls response 3
+        wikipedia link: https://en.wikipedia.org/wiki/Monosiga_brevicollis
+        context:
+          Tyrosine kinase net (Scientific Significance: Signaling evolution)
+  Murex:
+    - role as vHPO?:
+      src: its 6/8/2026, tag514432
+    - taxonomy:
+        keyword: Murex
+        scientific name: Murex
+        common name: Murex Snail
+        organism type: Sea Snail
+    - role in Ancient Textiles, gls:
+        frequency in web-browsing-infodumps x gemini listing analysis: [x02]
+        why is it studied: Ancient Textiles
+        src: gls response 3
+        wikipedia link: https://en.wikipedia.org/wiki/Murex
+        context:
+          Tyrian purple dye (Scientific Significance: Stable bromoperoxidase)
+  Mytilus edulis:
+    - taxonomy:
+        keyword: Mytilus edulis
+        scientific name: Mytilus edulis
+        common name: Blue Mussel
+        organism type: Shellfish
+    - role in Seafood / Bio-glue, gls:
+        frequency in web-browsing-infodumps x gemini listing analysis: [x01]
+        why is it studied: Seafood / Bio-glue
+        src: gls response 3
+        wikipedia link: https://en.wikipedia.org/wiki/Mytilus_edulis
+        context:
+          Polyphenolic proteins (Scientific Significance: Bioadhesive stiffening)
+  Nostos:
+    - role in nitrogen fixing:
+      keyword: Nostos
+      src: ABR c03s3.3, Nitrogen
+      context: 
+        The biological nitrogen fixation of diazotrophic microbes such as Rhizobia, Azospirillum, Anabaena and Nostos, via reduction of dinitrogen to ammonium, was the only route [until Haber-Bosch].  Phragmatopoma californica:
+  Phragmatopoma californica:
+    - taxonomy:
+        keyword: Phragmatopoma californica
+        scientific name: Phragmatopoma californica
+        common name: Sandcastle Worm
+        organism type: Marine Worm
+    - role in Biomimicry, gls:
+        frequency in web-browsing-infodumps x gemini listing analysis: [x01]
+        why is it studied: Biomimicry
+        src: gls response 3
+        wikipedia link: https://en.wikipedia.org/wiki/Phragmatopoma_californica
+        context:
+          Polyphenolic proteins (Scientific Significance: Tyrosine modification)
+  Rhizobia:
+    - role in nitrogen fixing:
+      keyword: Rhizobia
+      src: ABR c03s3.3, Nitrogen
+      context: 
+        The biological nitrogen fixation of diazotrophic microbes such as Rhizobia, Azospirillum, Anabaena and Nostos, via reduction of dinitrogen to ammonium, was the only route [until Haber-Bosch]. 
+  Saccharina japonica:
+    - taxonomy:
+        keyword: Saccharina japonica
+        scientific name: Saccharina japonica
+        common name: Sweet Kelp / Kombu
+        organism type: Brown Algae
+    - role in Industrial Food, gls:
+        frequency in web-browsing-infodumps x gemini listing analysis: [x04]
+        why is it studied: Industrial Food
+        src: gls response 3
+        wikipedia link: https://en.wikipedia.org/wiki/Saccharina_japonica
+        context:
+          Iodine accumulation (Scientific Significance: Metabolite shift/transcripts)
+  Saccharomyces cerevisiae:
+    - taxonomy:
+        keyword: Saccharomyces cerevisiae
+        scientific name: Saccharomyces cerevisiae
+        common name: Baker's Yeast
+        organism type: Fungus
+    - role in Fermentation / Lab, gls:
+        frequency in web-browsing-infodumps x gemini listing analysis: [x01]
+        why is it studied: Fermentation / Lab
+        src: gls response 3
+        wikipedia link: https://en.wikipedia.org/wiki/Saccharomyces_cerevisiae
+        context:
+          Sporulation networks (Scientific Significance: Eukaryote network model)
+  sea urchin:
+    - role as vHPO?:
+      src: its 6/8/2026, tag514432
+  Solanum melongena:
+    - taxonomy:
+        keyword: Solanum melongena
+        scientific name: Solanum melongena
+        common name: Eggplant
+        organism type: Fruit / Vegetable
+    - role in Crop Science, gls:
+        frequency in web-browsing-infodumps x gemini listing analysis: [x01]
+        why is it studied: Crop Science
+        src: gls response 3
+        wikipedia link: https://en.wikipedia.org/wiki/Eggplant
+        context:
+          Pathogen resistance (Scientific Significance: Guaiacol peroxidase)
+  tunicate:
+    - role as having endostyle, the mammal immune precursor:
+        src: its 6/8/2026, tag514432
+  Ulva:
+    - taxonomy:
+        scientific name: Ulva
+        common name: Sea Lettuce
+        organism type: Green Algae
+    - role in Food / Biofuel, gls:
+        keyword: Ulva
+        frequency in web-browsing-infodumps x gemini listing analysis: [x01]
+        why is it studied: Food / Biofuel
+        src: gls response 3
+        wikipedia link: https://en.wikipedia.org/wiki/Sea_lettuce
+        context:
+          Halogen metabolism (Scientific Significance: Marine chemical defense)
+  Xenopus laevis:
+    - taxonomy:
+        keyword: Xenopus laevis
+        scientific name: Xenopus laevis
+        common name: African Clawed Frog
+        organism type: Frog
+    - role in Developmental Biology, gls:
+        frequency in web-browsing-infodumps x gemini listing analysis: [x01]
+        why is it studied: Developmental Biology
+        src: gls response 3
+        wikipedia link: https://en.wikipedia.org/wiki/Xenopus_laevis
+        context:
+          Apoptosis mechanisms (Scientific Significance: Iodine role in development)
+    - role as noted Organism found in 4/2026 alignment:
+        src: its 6/8/2026, tag707153 ... see ./data/XVXGD0G9014-Alignment--vIPO-4-13-26-hits*.
