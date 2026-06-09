@@ -283,7 +283,7 @@ Species:
     - role as noted Organism found in 4/2026 alignment:
         src: its 6/8/2026, tag707153 ... see ./data/XVXGD0G9014-Alignment--vIPO-4-13-26-hits*.
   Capnocytophaga canimorsus:
-    - src: its 6/8/2026
+    - src: its 6/8/2026, left off at figuring out why I found it at https://en.wikipedia.org/wiki/Capnocytophaga_canimorsus
   Capsicum chinense:
     - taxonomy:
         keyword: Capsicum chinense
