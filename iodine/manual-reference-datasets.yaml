@@ -1,7 +1,12 @@
 README: 
-  This is a reference database for documenting species that I find 
+  This is a reference database for documenting information that I find 
   that might be useful for the iodine project, or other projects in this
   research front of (roughly) algal engineering for bioextraction.
+
+  In order (of importance/curation): 
+    Species.
+    Chemicals (besides iodine)
+    others: crop yields, curated databases
 Resources:
   about making blocks and paragraphs: https://yaml-multiline.info/
   wikipedia entry: https://en.wikipedia.org/wiki/YAML
@@ -115,7 +120,7 @@ Data-Format:
   Alphabetical sequence of species, followed by "item"s that have useful info about them.
   Items have this general format:
     item: {description of the information tidbit}
-      keyword: {the name that qualifies this }
+      keyword: {the name that qualifies this entry to fall under this file }
       src: {source; see References}
       context: {try to copy the context}
     
@@ -169,16 +174,16 @@ References:
       iodine-transporter-survey.md
     notes:
       90% manually scraped as of 6/8/2026; info merged to here.
-
-
-
-
-
-
-    
-    
-        
-Data:
+  - keyword: bcl
+    title: Biomass Conversion Lectures
+    url: tbd...
+    lectures: [
+      - lecture 2: 
+          title: need for bio-based industries
+          reference: first watched 5/22/2026
+    ]
+      
+Species:
   Agrocybe aegerita:
     - taxonomy:
         keyword: Agrocybe aegerita
@@ -201,7 +206,7 @@ Data:
       src: ABR c03s3.3, Nitrogen
       context: 
         The biological nitrogen fixation of diazotrophic microbes such as Rhizobia, Azospirillum, Anabaena and Nostos, via reduction of dinitrogen to ammonium, was the only route [until Haber-Bosch].
-  Arabidopsis thaliana:
+  reabidopsis thaliana:
     - taxonomy:
         keyword: Arabidopsis thaliana
         scientific name: Arabidopsis thaliana
@@ -344,6 +349,8 @@ Data:
         wikipedia link: https://en.wikipedia.org/wiki/Emiliania_huxleyi
         context:
           Iodine growth response (Scientific Significance: Intracellular accumulation)
+  hemp:
+    - role in *many* different industries: see photo 5/31/2026 from bcl. 
   Homo Sapiens:
     - role as noted Organism found in 4/2026 alignment:
         src: its 6/8/2026, tag707153 ... see ./data/XVXGD0G9014-Alignment--vIPO-4-13-26-hits*.
@@ -542,3 +549,78 @@ Data:
           Apoptosis mechanisms (Scientific Significance: Iodine role in development)
     - role as noted Organism found in 4/2026 alignment:
         src: its 6/8/2026, tag707153 ... see ./data/XVXGD0G9014-Alignment--vIPO-4-13-26-hits*.
+  __todo: go over 5/31 photos. primo stuff.
+
+
+Chemicals:
+  Acetone:
+    - role as a solvent product of biorefineries:
+      src: bcl, 5/22/2026 photo "Importance of Bio-refinery for Bio-based Industries"
+  Benzalkonium chloride formulations:
+    Alkyl dimethyl ethylbenzyl ammonium chloride: MgU work sanitizer
+    Alkyl dimethyl benzyl ammonium chloride: MgU work sanitizer
+  Biodiesel:
+    - role as a fuel product of biorefineries:
+      src: bcl, 5/22/2026 photo "Importance of Bio-refinery for Bio-based Industries"
+  Butanol:
+    - role as a solvent product of biorefineries:
+      src: bcl, 5/22/2026 photo "Importance of Bio-refinery for Bio-based Industries"
+  Cellulosic Fiber:
+    - role as a fuber product of biorefineries:
+      src: bcl, 5/22/2026 photo "Importance of Bio-refinery for Bio-based Industries"
+  Corn oils for triglycerides:
+    - role as a oils product of biorefineries:
+      src: bcl, 5/22/2026 photo "Importance of Bio-refinery for Bio-based Industries"
+  Ethanol:
+    - role as a fuel product of biorefineries:
+      src: bcl, 5/22/2026 photo "Importance of Bio-refinery for Bio-based Industries"
+  Isosorbides:
+    - role as a fine chemicals product of biorefineries:
+      src: bcl, 5/22/2026 photo "Importance of Bio-refinery for Bio-based Industries"
+  Lactic Acid Esters:
+    - role as a fine chemicals product of biorefineries:
+      src: bcl, 5/22/2026 photo "Importance of Bio-refinery for Bio-based Industries"
+  
+  rubber:
+    - src wikipedia:
+        percent natural: greater than 50%
+        made of isoprene
+  
+  Starch:
+    - role as a plastics product of biorefineries:
+      src: bcl, 5/22/2026 photo "Importance of Bio-refinery for Bio-based Industries"
+  Succinic Acid:
+    - role as a bulk chemicals product of biorefineries:
+      src: bcl, 5/22/2026 photo "Importance of Bio-refinery for Bio-based Industries"
+  Sucrose:
+    - role as a bulk chemicals product of biorefineries:
+      src: bcl, 5/22/2026 photo "Importance of Bio-refinery for Bio-based Industries"
+  Tetra-hydrofuran:
+    - role as a solvent product of biorefineries:
+      src: bcl, 5/22/2026 photo "Importance of Bio-refinery for Bio-based Industries"
+  Thermoplastic:
+    - role as a plastics product of biorefineries:
+      src: bcl, 5/22/2026 photo "Importance of Bio-refinery for Bio-based Industries"
+
+crop yields:
+  src: bcl, 5/24
+  list: [
+    maize, rice, wheat, barley, millet, oats,
+    rye, sorghum, olives, rapeseed, soybeans,
+    sunflower, cassava, sugar beet, sugar cane
+  ]
+
+curated databases:
+  - src: cheminformatics lecture, youtube, screenshots 5/27/2026
+  - list: 
+    [
+      MoleculeNet (ML and molecules?),
+      kraken (organophosphorous ligands)
+      zinc20 (drug screening)
+      pubchem (large(st) collection of chemical data; good for total synthesis)
+      coconut (natural products; good for organic synthesis)
+    ]
+
+
+
+#
