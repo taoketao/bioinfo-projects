@@ -12,6 +12,30 @@ Resources:
   wikipedia entry: https://en.wikipedia.org/wiki/YAML
   YAML cheat sheet: https://quickref.me/yaml.html
   Visual Studio Code Windows cheat sheet: https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
+  other links (dump):
+    [
+      microsoftedge.github.io/Demos/json-dummy-data/64KB.json
+      https://microsoftedge.github.io/Demos/json-dummy-data/64KB.json
+
+      JSON Example
+      https://json.org/example.html
+
+      json format cheat sheet - Google Search
+      https://www.google.com/search?q=json+format+cheat+sheet&client=firefox-b-1-d&hs=zONV&sca_esv=e8b56c3c652e1040&sxsrf=ANbL-n46po17_G4oyXwawRDbCTNyrIYv1A%3A1780979522469&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3izfzqgn7395CNCvYdZRuZ4-lOsJlglncpOd_-CGga6cOLqDKZIowtVXUSv9JiBkrDj_EVKMNnAlL9U6nYgzJP4iv6sQzj8tIFPpc0hvgoc49dID1ZRmtmYDI5dg_ch75D79wAT1LjSCgJy5yTNFKcjGKZJG3D0WHxjSgN39ig9PZF4qE575stvrd5awWHMCX0TGuPk&aep=1&ntc=1&sa=X&ved=2ahUKEwjO16feqfmUAxWclisGHXSWB4sQ2J8OegQIChAD&biw=1130&bih=549&dpr=1.09&mstk=AUtExfB01AsHaxU7vfbF0hP5tx4JI29pqBxdV5R8i0610idBil5cLMpDJp1BSIBoEzAoHFeOBEshvMBCDKE_dBhpeuPw5POTUSY9w0aLXP-pJSgGhY3p5we4xKOopv2xyfThtL-Lsxbxbdm2siytxacpNWkgh8gcgCi-kHGwb4N8wUT3hK5kmoZNLt_X64tFHkpdybnnLtbBYAYpBIwjZDqa3n4Nh5mWFySg8S1tKN2UZHiX9g9_CFkZbQuc7PzUz-S7E1ez3mXYFiJ5heTb40obsI2YYtAJwlWlaOg&csuir=1&udm=50
+
+      YAML Cheat Sheet & Quick Reference
+      https://quickref.me/yaml.html
+
+      [BUG] Hard line breaks at ~80 characters in VS Code extension, breaking copy/paste · Issue #6827 · anthropics/claude-code
+      https://github.com/anthropics/claude-code/issues/6827
+
+      keyboard-shortcuts-windows.pdf
+      https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
+
+      Is there a keyboard shortcut for easily switching between open editors? I'd really like to use something like ⌘→ or ⌘← : r/vscode
+      https://www.reddit.com/r/vscode/comments/f0i3ey/is_there_a_keyboard_shortcut_for_easily_switching/
+
+    ]
   gemini rationale:
     prompt: test
     prompt: 
@@ -142,6 +166,11 @@ References:
             3.2: Carbon
             3.3: Nitrogen
             3.4: Phosphorus
+          4: Integration of Algal Technology with Waste Recycling for Bioremediation and Biofuels
+            4.1: Wastewater as Algae Cultivation Medium
+            4.2: Nutrient Delivery From Animal Waste
+            4.3: Nutrient Recycling via Anaerobic Digestion of Algae Biomass
+            4.4: Carbon Supplementation
         ]
     ]
     formatting examples:
@@ -203,10 +232,10 @@ Species:
   Anabaena:
     - role in nitrogen fixing:
       keyword: Anabaena
-      src: ABR c03s3.3, Nitrogen
+      src: ABR c03s3.3 p74, Nitrogen
       context: 
         The biological nitrogen fixation of diazotrophic microbes such as Rhizobia, Azospirillum, Anabaena and Nostos, via reduction of dinitrogen to ammonium, was the only route [until Haber-Bosch].
-  reabidopsis thaliana:
+  Arabidopsis thaliana:
     - taxonomy:
         keyword: Arabidopsis thaliana
         scientific name: Arabidopsis thaliana
@@ -264,7 +293,7 @@ Species:
   Azospirillum:
     - role in nitrogen fixing:
       keyword: Azospirillum
-      src: ABR c03s3.3, Nitrogen
+      src: ABR c03s3.3 p74, Nitrogen
       context: 
         The biological nitrogen fixation of diazotrophic microbes such as Rhizobia, Azospirillum, Anabaena and Nostos, via reduction of dinitrogen to ammonium, was the only route [until Haber-Bosch].
   Bacillus subtilis:
@@ -310,6 +339,47 @@ Species:
         wikipedia link: https://en.wikipedia.org/wiki/Chara_(alga)
         context:
           Nucleotide sequence (Scientific Significance: Land plant ancestor model)
+  Chlorella:
+    - taxonomy: genus
+    - role as wastewater raceway colonizer:
+      keyword: Chlorella
+      src: ABR c03s4.2 p77, nutrient source = animal waste
+      context:
+        Authors earlier reported isolation of several mixotrophic microalgae belonging to Chlorella and Scenedesmus genera capable of preferably growing on wastewater and poultry litter extract and producing biomass as much as typically achieved from freshwater-based enriched growth media (Bhatmagar et al 2011, Renewable biomass production by mixotrophic algae in the presence of various...)
+  Chlorella minutissima:
+    - role as raceway initial inoculation consortium:
+      keyword: Chlorella minutissima
+      src: ABR c03s4.1 p76, nutrient source = wastewater
+      context:
+        The most interesting result obtained was the 70-80% removal of P [phosphate] from the wastewater which might be due to luxury optake of P by algae as the algal biomass harvested was found to have 3% P by weight in contrast to the more typical 1% P content in algae. Raceways were initially inoculated with a consortium of Chlorella minutissima, Scenedesmus bijuga and Chlorella sorokinana strains. However, as was expected in open raceways system using wastewater, these strains could not maintain their dominance and were superseded by locally dominant algae.
+  Chlorella protothecoides:
+    - taxonomy: heterotrophic
+    - about biomanufacturing this species:
+      keyword: Chlorella protothecoides
+      src: ABR c03 references pg82
+      context:
+        Shi X, Zhang X, Chen F (2000). Heterotrophic production of biomass and lutein by Chlorella protothecoides in heterotrophic fed-batch culture. Biotechnol Prog 18:723-727.
+  Chlorella sorokinana:
+    - role as raceway initial inoculation consortium:
+      keyword: Chlorella sorokinana
+      src: ABR c03s4.1 p76, nutrient source = wastewater
+      context:
+        The most interesting result obtained was the 70-80% removal of P [phosphate] from the wastewater which might be due to luxury optake of P by algae as the algal biomass harvested was found to have 3% P by weight in contrast to the more typical 1% P content in algae. Raceways were initially inoculated with a consortium of Chlorella minutissima, Scenedesmus bijuga and Chlorella sorokinana strains. However, as was expected in open raceways system using wastewater, these strains could not maintain their dominance and were superseded by locally dominant algae. 
+  Chlorella vulgaris:
+    - taxonomy:
+        organism type: green algae
+    - role as wastewater raceway colonizer:
+      keyword: Chlorella vulgaris
+      src: ABR c03s4.1 p77, nutrient source = wastewater
+      context:
+        However, as was expected in open raceways system using wastewater, these [initial inoculating] strains could not maintain their dominance and were superseded by locally dominant algae.... the results revealed that cyanobacteria (blue green algae) dominated during summer, representing 95% of the total microalgal population identified in the raceways.... (5) Chlorella vulgaris (15%) and Trebouxia gelatinosa (8%) were also among the dominant green algae species seen.
+  Chlorella zofingiensis:
+    - taxonomy: heterotrophic
+    - about biomanufacturing this species:
+      keyword: Chlorella zofingiensis (Chlorophyta)
+      src: ABR c03 references pg82
+      context:
+        Sun N, Wang Y, Li Y-T et all (2008) Sugar-based growth, astaxanthin accumulation and carotenoidigenic transcription of heterotrophic Chlorella zofingiensis (Chlorophyta). Process Biochem 43:1288-1292.
   Cladophora fascicularis:
     - taxonomy:
         keyword: Cladophora fascicularis
@@ -336,6 +406,14 @@ Species:
         wikipedia link: https://en.wikipedia.org/wiki/Zebra_mussel
         context:
           Adhesive plaque (Scientific Significance: Byssus thread protein)
+  E Coli:
+    - role as pathogenic marine bacteria:
+        context: 
+          Pathogenic viruses and bacteria occur in such waters, such as Escherichia coli, Vibrio cholerae the cause of cholera, hepatitis A, hepatitis E and polio, along with protozoans causing giardiasis and cryptosporidiosis. 
+        src: https://en.wikipedia.org/wiki/Seawater#Microbial_components
+        link: https://en.wikipedia.org/wiki/Escherichia_coli
+        reference cited:   Hoyle, Brian D.; Robinson, Richard. "Microbes in the Ocean". Water Encyclopedia.  http://www.waterencyclopedia.com/Mi-Oc/Microbes-in-the-Ocean.html
+        date: 6/9/2026
   Emiliania huxleyi:
     - taxonomy:
         keyword: Emiliania huxleyi
@@ -349,6 +427,14 @@ Species:
         wikipedia link: https://en.wikipedia.org/wiki/Emiliania_huxleyi
         context:
           Iodine growth response (Scientific Significance: Intracellular accumulation)
+  Euhalothece sp:
+    - taxonomy:
+        organism type: salt-tolerant blue green cyanobacterial algae
+    - role as wastewater raceway colonizer:
+      keyword: Euhalothece sp
+      src: ABR c03s4.1 p77, nutrient source = wastewater
+      context:
+        However, as was expected in open raceways system using wastewater, these [initial inoculating] strains could not maintain their dominance and were superseded by locally dominant algae.... the results revealed that cyanobacteria (blue green algae) dominated during summer, representing 95% of the total microalgal population identified in the raceways.... (6) Euhalothece sp., a salt tolerant cyanobacterium, was the most dominant blue green algae representing 14% off the total microalgal population.
   hemp:
     - role in *many* different industries: see photo 5/31/2026 from bcl. 
   Homo Sapiens:
@@ -410,6 +496,12 @@ Species:
   lancelet:
     - role as having endostyle, the mammal immune precursor:
         src: its 6/8/2026, tag514432
+  Leptolyngbya breviarticulata:
+    - role as wastewater raceway colonizer:
+      keyword: Leptolyngbya breviarticulata
+      src: ABR c03s4.1 p76, nutrient source = wastewater
+      context:
+        However, as was expected in open raceways system using wastewater, these [initial inoculating] strains could not maintain their dominance and were superseded by locally dominant algae.... the results revealed that cyanobacteria (blue green algae) dominated during summer, representing 95% of the total microalgal population identified in the raceways.... (3) Leptolyngbya breviarticulata was also among the dominant cyanobacterial spp.
   Monosiga brevicollis:
     - taxonomy:
         keyword: Monosiga brevicollis
@@ -457,6 +549,14 @@ Species:
       src: ABR c03s3.3, Nitrogen
       context: 
         The biological nitrogen fixation of diazotrophic microbes such as Rhizobia, Azospirillum, Anabaena and Nostos, via reduction of dinitrogen to ammonium, was the only route [until Haber-Bosch].  Phragmatopoma californica:
+  Paulinella:
+    - taxonomy:
+        organism type: green microalgae
+    - role as wastewater raceway colonizer:
+      keyword: Paulinella
+      src: ABR c03s4.1 p77, nutrient source = wastewater
+      context:
+        However, as was expected in open raceways system using wastewater, these [initial inoculating] strains could not maintain their dominance and were superseded by locally dominant algae.... the results revealed that cyanobacteria (blue green algae) dominated during summer, representing 95% of the total microalgal population identified in the raceways.... (4) In contrast, during winter green and blue green algae were almost in equal proportions. ... Among green microalgae, Paulinella was the most dominant with average biovolume of 53% of the total green algae identified.
   Phragmatopoma californica:
     - taxonomy:
         keyword: Phragmatopoma californica
@@ -470,6 +570,14 @@ Species:
         wikipedia link: https://en.wikipedia.org/wiki/Phragmatopoma_californica
         context:
           Polyphenolic proteins (Scientific Significance: Tyrosine modification)
+  Pseudomonas:
+    - role as alkotolerant marine bacteria:
+        context: 
+          Bacteria-like Archaea surprised marine microbiologists by their survival and thriving in extreme environments, such as the hydrothermal vents on the ocean floor. Alkalotolerant marine bacteria such as Pseudomonas and Vibrio spp. survive in a pH range of 7.3 to 10.6, while some species will grow only at pH 10 to 10.6.[22] 
+        src: https://en.wikipedia.org/wiki/Seawater#Microbial_components
+        link: https://en.wikipedia.org/wiki/Pseudomonas
+        reference cited:  Maeda, M.; Taga, N. (31 March 1980). "Alkalotolerant and Alkalophilic Bacteria in Seawater". Marine Ecology Progress Series. 2: 105-108. Bibcode:1980MEPS....2..105M. doi:10.3354/meps002105. https://doi.org/10.3354%2Fmeps002105
+        date: 6/9/2026
   Rhizobia:
     - role in nitrogen fixing:
       keyword: Rhizobia
@@ -502,6 +610,21 @@ Species:
         wikipedia link: https://en.wikipedia.org/wiki/Saccharomyces_cerevisiae
         context:
           Sporulation networks (Scientific Significance: Eukaryote network model)
+  Scenedesmus:
+    - taxonomy: genus
+    - role as wastewater raceway colonizer:
+      keyword: Scenedesmus
+      src: ABR c03s4.2 p77, nutrient source = animal waste
+      context:
+        Authors earlier reported isolation of several mixotrophic microalgae belonging to Chlorella and Scenedesmus genera capable of preferably growing on wastewater and poultry litter extract and producing biomass as much as typically achieved from freshwater-based enriched growth media (Bhatmagar et al 2011, Renewable biomass production by mixotrophic algae in the presence of various...)
+  Scenedesmus bijuga:
+    - role as raceway initial inoculation consortium:
+      keyword: Scenedesmus bijuga
+      src: ABR c03s4.1 p76, nutrient source = wastewater
+      context:
+        The most interesting result obtained was the 70-80% removal of P [phosphate] from the wastewater which might be due to luxury optake of P by algae as the algal biomass harvested was found to have 3% P by weight in contrast to the more typical 1% P content in algae. Raceways were initially inoculated with a consortium of Chlorella minutissima, Scenedesmus bijuga and Chlorella sorokinana strains. However, as was expected in open raceways system using wastewater, these strains could not maintain their dominance and were superseded by locally dominant algae.  
+    - role as anaerobic digestion methane production:
+        src: ABR c03s4.3 p78, 65% of the way down the page
   sea urchin:
     - role as vHPO?:
       src: its 6/8/2026, tag514432
@@ -518,6 +641,32 @@ Species:
         wikipedia link: https://en.wikipedia.org/wiki/Eggplant
         context:
           Pathogen resistance (Scientific Significance: Guaiacol peroxidase)
+  Synechococcus spp:
+    - role as wastewater raceway colonizer:
+      keyword: Synechococcus
+      src: ABR c03s4.1 p76, nutrient source = wastewater
+      context:
+        However, as was expected in open raceways system using wastewater, these [initial inoculating] strains could not maintain their dominance and were superseded by locally dominant algae.... the results revealed that cyanobacteria (blue green algae) dominated during summer, representing 95% of the total microalgal population identified in the raceways.... (2) Another dominant strain was Synechococcus spp. contributing up to 39% of the total population.
+  Synechococcus elongates:
+    - role as wastewater raceway colonizer:
+      keyword: Synechococcus elongates
+      src: ABR c03s4.1 p76, nutrient source = wastewater
+      context:
+        However, as was expected in open raceways system using wastewater, these [initial inoculating] strains could not maintain their dominance and were superseded by locally dominant algae.... the results revealed that cyanobacteria (blue green algae) dominated during summer, representing 95% of the total microalgal population identified in the raceways.... (1) Synechococcus elongates was the most dominant cyanobacteria during summer and was on average 41% of the total microalgal population throughout the duration of a batch run.
+  Thiomargarita namibiensis:
+    - role in hydrogen sulfide breakdown:
+        context: 
+          Some bacteria interact with diatoms, and form a critical link in the cycling of silicon in the ocean. One anaerobic species, Thiomargarita namibiensis, plays an important part in the breakdown of hydrogen sulfide eruptions from diatomaceous sediments off the Namibian coast, and generated by high rates of phytoplankton growth in the Benguela Current upwelling zone, eventually falling to the seafloor. 
+        src: https://en.wikipedia.org/wiki/Seawater#Microbial_components
+        link: https://en.wikipedia.org/wiki/Thiomargarita_namibiensis
+  Trebouxia gelatinosa:
+    - taxonomy:
+        organism type: green algae
+    - role as wastewater raceway colonizer:
+      keyword: Trebouxia gelatinosa
+      src: ABR c03s4.1 p77, nutrient source = wastewater
+      context:
+        However, as was expected in open raceways system using wastewater, these [initial inoculating] strains could not maintain their dominance and were superseded by locally dominant algae.... the results revealed that cyanobacteria (blue green algae) dominated during summer, representing 95% of the total microalgal population identified in the raceways.... (5) Chlorella vulgaris (15%) and Trebouxia gelatinosa (8%) were also among the dominant green algae species seen. 
   tunicate:
     - role as having endostyle, the mammal immune precursor:
         src: its 6/8/2026, tag514432
@@ -534,6 +683,22 @@ Species:
         wikipedia link: https://en.wikipedia.org/wiki/Sea_lettuce
         context:
           Halogen metabolism (Scientific Significance: Marine chemical defense)
+  Vibrio:
+    - role as alkotolerant marine bacteria:
+        context: 
+          Bacteria-like Archaea surprised marine microbiologists by their survival and thriving in extreme environments, such as the hydrothermal vents on the ocean floor. Alkalotolerant marine bacteria such as Pseudomonas and Vibrio spp. survive in a pH range of 7.3 to 10.6, while some species will grow only at pH 10 to 10.6.[22] 
+        src: https://en.wikipedia.org/wiki/Seawater#Microbial_components
+        link: https://en.wikipedia.org/wiki/Pseudomonas
+        reference cited:  Maeda, M.; Taga, N. (31 March 1980). "Alkalotolerant and Alkalophilic Bacteria in Seawater". Marine Ecology Progress Series. 2: 105-108. Bibcode:1980MEPS....2..105M. doi:10.3354/meps002105. https://doi.org/10.3354%2Fmeps002105
+        date: 6/9/2026
+  Vibrio cholerae:
+      - role as pathogenic marine bacteria:
+        context: 
+          Pathogenic viruses and bacteria occur in such waters, such as Escherichia coli, Vibrio cholerae the cause of cholera, hepatitis A, hepatitis E and polio, along with protozoans causing giardiasis and cryptosporidiosis. 
+        src: https://en.wikipedia.org/wiki/Seawater#Microbial_components
+        link: https://en.wikipedia.org/wiki/Vibrio_cholerae
+        reference cited:   Hoyle, Brian D.; Robinson, Richard. "Microbes in the Ocean". Water Encyclopedia.  http://www.waterencyclopedia.com/Mi-Oc/Microbes-in-the-Ocean.html
+        date: 6/9/2026
   Xenopus laevis:
     - taxonomy:
         keyword: Xenopus laevis
@@ -550,6 +715,14 @@ Species:
     - role as noted Organism found in 4/2026 alignment:
         src: its 6/8/2026, tag707153 ... see ./data/XVXGD0G9014-Alignment--vIPO-4-13-26-hits*.
   __todo: go over 5/31 photos. primo stuff.
+  __todo: go over Algaculture.ipynb.
+  __todo: 
+    look into this, ABR chapter 3 citations page 82:
+      Sheeha J, Dunahay T, Benemann J et al (1998) A look back at the U.S. department of energy's aquatc species program-Biodiesel from algae. National Renewable Energy Laboratory report No. TP-580--24190
+
+
+
+
 
 
 Chemicals:
