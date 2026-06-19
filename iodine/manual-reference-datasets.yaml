@@ -326,6 +326,11 @@ Species:
         wikipedia link: https://en.wikipedia.org/wiki/Capsicum_chinense
         context:
           Pathogen resistance (Scientific Significance: Defense gene expression)
+  Cellulomonas:
+    - role in cellulose breakdown:
+        src: wikipedia.org/wiki/Cellulose#Breakdown_(cellulolysis)
+        context:
+          Most mammals have limited ability to digest dietary fibre such as cellulose. Some ruminants like cows and sheep contain certain symbiotic anaerobic bacteria (such as Cellulomonas and Ruminococcus spp.) in the flora of the rumen, and these bacteria produce enzymes called cellulases that hydrolyze cellulose.
   Chara:
     - taxonomy:
         keyword: Chara
@@ -339,6 +344,23 @@ Species:
         wikipedia link: https://en.wikipedia.org/wiki/Chara_(alga)
         context:
           Nucleotide sequence (Scientific Significance: Land plant ancestor model)
+  Chaetomorpha:
+    - taxonomy: algae
+    - cellulose cell wall model:
+        src: 
+          Voet and Voet and Pratt, Fundamentals of Biochemistry, 1999 edition. Chapter 8 Carbohydrates, section 8-2 Polysaccharides, subsection B Structural Polysaccharides, Cellulose and Chitin. Page 204. 
+        context:
+          An image shows an electron micrograph image of this organism in particular to demonstrate how cellulose makes up cell walls.
+        caption:
+          Title: Figure 8.8. Electron micrograph of a cell wall.
+          Caption: The cellulose fibers in this sample of a cell wall from the alga Chaetomorpha are arranged in layers.
+          Credit: [Biophoto Associates/Photo Researchers.]
+  Chlamydomonas reinhardtii:
+    - taxonomy: green microalgae
+    - role in cellulolysis:
+        context:
+          Cellulases have also [cf. animals] been found in green microalgae (Chlamydomonas reinhardtii, Gonium pectorale and Volvox carteri) and their catalytic domains (CDs) belonging to GH9 Family show highest sequence homology to metazoan endogenous cellulases. Algal cellulases are modular, consisting of putative novel cysteine-rich carbohydrate-binding modules (CBMs), proline-serine-rich linkers in addition to putative Ig-like and unknown domains in some members. Cellulase from Gonium pectorale consisted of two CDs separated by linkers and with a C-terminal CBM. 
+        src: wikipedia.org/wiki/Cellulase 
   Chlorella:
     - taxonomy: genus
     - role as wastewater raceway colonizer:
@@ -435,6 +457,12 @@ Species:
       src: ABR c03s4.1 p77, nutrient source = wastewater
       context:
         However, as was expected in open raceways system using wastewater, these [initial inoculating] strains could not maintain their dominance and were superseded by locally dominant algae.... the results revealed that cyanobacteria (blue green algae) dominated during summer, representing 95% of the total microalgal population identified in the raceways.... (6) Euhalothece sp., a salt tolerant cyanobacterium, was the most dominant blue green algae representing 14% off the total microalgal population.
+  Gonium pectorale:
+    - taxonomy: green microalgae
+    - role in cellulolysis:
+        context:
+          Cellulases have also [cf. animals] been found in green microalgae (Chlamydomonas reinhardtii, Gonium pectorale and Volvox carteri) and their catalytic domains (CDs) belonging to GH9 Family show highest sequence homology to metazoan endogenous cellulases. Algal cellulases are modular, consisting of putative novel cysteine-rich carbohydrate-binding modules (CBMs), proline-serine-rich linkers in addition to putative Ig-like and unknown domains in some members. Cellulase from Gonium pectorale consisted of two CDs separated by linkers and with a C-terminal CBM. 
+        src: wikipedia.org/wiki/Cellulase
   hemp:
     - role in *many* different industries: see photo 5/31/2026 from bcl. 
   Homo Sapiens:
@@ -584,6 +612,11 @@ Species:
       src: ABR c03s3.3, Nitrogen
       context: 
         The biological nitrogen fixation of diazotrophic microbes such as Rhizobia, Azospirillum, Anabaena and Nostos, via reduction of dinitrogen to ammonium, was the only route [until Haber-Bosch]. 
+  Ruminococcus:
+    - role in cellulose breakdown:
+        src: wikipedia.org/wiki/Cellulose#Breakdown_(cellulolysis)
+        context:
+          Most mammals have limited ability to digest dietary fibre such as cellulose. Some ruminants like cows and sheep contain certain symbiotic anaerobic bacteria (such as Cellulomonas and Ruminococcus spp.) in the flora of the rumen, and these bacteria produce enzymes called cellulases that hydrolyze cellulose. 
   Saccharina japonica:
     - taxonomy:
         keyword: Saccharina japonica
@@ -699,6 +732,12 @@ Species:
         link: https://en.wikipedia.org/wiki/Vibrio_cholerae
         reference cited:   Hoyle, Brian D.; Robinson, Richard. "Microbes in the Ocean". Water Encyclopedia.  http://www.waterencyclopedia.com/Mi-Oc/Microbes-in-the-Ocean.html
         date: 6/9/2026
+  Volvox carteri:
+    - taxonomy: green microalgae
+    - role in cellulolysis:
+        context:
+          Cellulases have also [cf. animals] been found in green microalgae (Chlamydomonas reinhardtii, Gonium pectorale and Volvox carteri) and their catalytic domains (CDs) belonging to GH9 Family show highest sequence homology to metazoan endogenous cellulases. Algal cellulases are modular, consisting of putative novel cysteine-rich carbohydrate-binding modules (CBMs), proline-serine-rich linkers in addition to putative Ig-like and unknown domains in some members. Cellulase from Gonium pectorale consisted of two CDs separated by linkers and with a C-terminal CBM. 
+        src: wikipedia.org/wiki/Cellulase 
   Xenopus laevis:
     - taxonomy:
         keyword: Xenopus laevis
@@ -716,6 +755,7 @@ Species:
         src: its 6/8/2026, tag707153 ... see ./data/XVXGD0G9014-Alignment--vIPO-4-13-26-hits*.
   __todo: go over 5/31 photos. primo stuff.
   __todo: go over Algaculture.ipynb.
+  __todo: scrape wiki/Cellulase for good list of species-of-interest
   __todo: 
     look into this, ABR chapter 3 citations page 82:
       Sheeha J, Dunahay T, Benemann J et al (1998) A look back at the U.S. department of energy's aquatc species program-Biodiesel from algae. National Renewable Energy Laboratory report No. TP-580--24190
