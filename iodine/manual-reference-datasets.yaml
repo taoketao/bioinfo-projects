@@ -297,11 +297,15 @@ Species:
       context: 
         The biological nitrogen fixation of diazotrophic microbes such as Rhizobia, Azospirillum, Anabaena and Nostos, via reduction of dinitrogen to ammonium, was the only route [until Haber-Bosch].
   Bacillus subtilis:
+    - description (wikipedia): 
+      - a Gram-positive, catalase-positive bacterium, found in soil and the gastrointestinal tract of ruminants, humans, and marine sponges. 
+      - also see this organism's role in precision fermention 
     - taxonomy:
         keyword: Bacillus subtilis
         scientific name: Bacillus subtilis
         common name: Hay Bacillus
         organism type: Soil Bacteria
+        wikipedia: https://en.wikipedia.org/wiki/Bacillus_subtilis
     - role in Lab Model Organism, gls:
         frequency in web-browsing-infodumps x gemini listing analysis: [x03]
         why is it studied: Lab Model Organism
@@ -311,6 +315,13 @@ Species:
           Starch-iodine test (Scientific Significance: Gold cycling/metabolism)
     - role as noted Organism found in 4/2026 alignment:
         src: its 6/8/2026, tag707153 ... see ./data/XVXGD0G9014-Alignment--vIPO-4-13-26-hits*.
+    - role in precision fermentation:
+        src: https://en.wikipedia.org/wiki/Precision_fermentation#Cell_factories
+        expanded context: tag88256395
+        context: 
+          Microbial strains commonly used [as cell factories] include Bacillus subtilis, Corynebacterium glutamicum, Escherichia coli, Komagataella phaffii, Saccharomyces cerevisiae, and Yarrowia lipolytica. 
+        reason it's used in precision fermentation: 
+          B. subtilis is a widely studied Gram-positive bacterium, known as a plant growth-promoting rhizobacterium. It can adapt to harsh growth conditions, make use of low-cost substrates, grow rapidly, and possesses good genetic stability along with advantages in expression systems. B. subtilis is considered safe (GRAS) and can be used to produce a variety of biomolecules.[11]
   Capnocytophaga canimorsus:
     - src: its 6/8/2026, left off at figuring out why I found it at https://en.wikipedia.org/wiki/Capnocytophaga_canimorsus
   Capsicum chinense:
@@ -415,6 +426,19 @@ Species:
         wikipedia link: https://en.wikipedia.org/wiki/Cladophora
         context:
           Heavy metal uptake (Scientific Significance: Phytoremediation capacity)
+  Corynebacterium glutamicum:
+    - taxonomy:
+      description: 
+        Corynebacterium glutamicum is a Gram-positive, rod-shaped bacterium that is used industrially for large-scale production of amino acids,[3][4] especially glutamic acid and lysine
+      Phylum: Actinomycetota
+      Order: Mycobacteriales
+    - role in precision fermentation:
+        src: https://en.wikipedia.org/wiki/Precision_fermentation#Cell_factories
+        expanded context: tag88256395
+        context: 
+          Microbial strains commonly used [as cell factories] include Bacillus subtilis, Corynebacterium glutamicum, Escherichia coli, Komagataella phaffii, Saccharomyces cerevisiae, and Yarrowia lipolytica. 
+        reaon it's used in precision fermentation:
+          C. glutamicum is a fast-growing, facultative aerobic, Gram-positive bacterium. It can utilize a variety of sugars, organic acids, and alcohols as sole or mixed carbon sources. Known for its excellent amino acid production capabilities, C. glutamicum is also used in the industrial production of other high-value compounds, including organic acids and terpenoids.[12]
   Dreissena polymorpha:
     - taxonomy:
         keyword: Dreissena polymorpha
@@ -429,6 +453,13 @@ Species:
         context:
           Adhesive plaque (Scientific Significance: Byssus thread protein)
   E Coli:
+    - taxonomy:
+        organism type: gram-negative facultative-anaerobic bacteria
+        keyword: Escherichia coli
+        scientific name: Escherichia coli
+        description (wikipedia):
+          is a gram-negative, facultative anaerobic, rod-shaped, coliform bacterium of the genus Escherichia that is commonly found in the lower intestine of warm-blooded organisms.
+        Kingdom: Pseudomonadati 
     - role as pathogenic marine bacteria:
         context: 
           Pathogenic viruses and bacteria occur in such waters, such as Escherichia coli, Vibrio cholerae the cause of cholera, hepatitis A, hepatitis E and polio, along with protozoans causing giardiasis and cryptosporidiosis. 
@@ -436,6 +467,13 @@ Species:
         link: https://en.wikipedia.org/wiki/Escherichia_coli
         reference cited:   Hoyle, Brian D.; Robinson, Richard. "Microbes in the Ocean". Water Encyclopedia.  http://www.waterencyclopedia.com/Mi-Oc/Microbes-in-the-Ocean.html
         date: 6/9/2026
+    - role in precision fermentation:
+        src: https://en.wikipedia.org/wiki/Precision_fermentation#Cell_factories
+        expanded context: tag88256395
+        context: 
+          Microbial strains commonly used [as cell factories] include Bacillus subtilis, Corynebacterium glutamicum, Escherichia coli, Komagataella phaffii, Saccharomyces cerevisiae, and Yarrowia lipolytica. 
+        reaon it's used in precision fermentation:
+          E. coli is a rod-shaped Gram-negative bacterium. A widespread and non-pathogenic strain of this bacterium a commonly used host strain to produce various valuable products. This expression system has the advantages of convenient genetic manipulation, simple transformation process, low cost, and efficient production.[13]
   Emiliania huxleyi:
     - taxonomy:
         keyword: Emiliania huxleyi
@@ -485,6 +523,32 @@ Species:
         wikipedia link: https://en.wikipedia.org/wiki/Isochrysis_galbana
         context:
           High iodine tolerance (Scientific Significance: Iodide uptake mechanism)
+  Komagataella phaffii:
+    - taxonomy:
+        keyword: Komagataella
+        scientific name: genus Komagataella
+        organism type: is a methylotrophic yeast: using methanol as a source of carbon and energy
+        Kingdom: fungi
+        Class: Saccharomycetes
+        Order: Pichiales
+        wiki: 
+          https://en.wikipedia.org/wiki/Komagataella
+        species:
+          According to GBIF[  "Komagataella Y.Yamada, M.Matsuda, K.Maeda & Mikata, 1995". www.gbif.org. https://www.gbif.org/species/7934007]:
+          - Komagataella kurtzmanii G.I.Naumov, E.S.Naumova, Tyurin & Kozlov, 2013
+          - Komagataella mondaviorum G.I.Naumov, E.S.Naumova & K.L.Boundy-Mills, 2018
+          - Komagataella pastoris (Guillierm., 1919) Y.Yamada, M.Matsuda, K.Maeda & Mikata, 1995
+          - Komagataella phaffii Kurtzman, 2005 – responsible for most, if not all, industrial & research use[6]
+          - Komagataella populi Kurtzman, 2012
+          - Komagataella pseudopastoris (Dlauchy, Tornai-Leh., Fülöp & G.Péter, 2003) Kurtzman, 2005
+          - Komagataella ulmi Kurtzman, 2012
+    - role in precision fermentation:
+        src: https://en.wikipedia.org/wiki/Precision_fermentation#Cell_factories
+        expanded context: tag88256395
+        context: 
+          Microbial strains commonly used [as cell factories] include Bacillus subtilis, Corynebacterium glutamicum, Escherichia coli, Komagataella phaffii, Saccharomyces cerevisiae, and Yarrowia lipolytica. 
+        reaon it's used in precision fermentation:
+          K. phaffii (formerly Pichia pastoris) is a non-conventional yeast with advantages in natural product biosynthesis. It is easier to genetically modify and is well-suited for protein expression.[14]
   Kraken carinae:
     - taxonomy:
         keyword: Kraken carinae
@@ -636,6 +700,8 @@ Species:
         scientific name: Saccharomyces cerevisiae
         common name: Baker's Yeast
         organism type: Fungus
+        wiki:
+          https://en.wikipedia.org/wiki/Saccharomyces_cerevisiae
     - role in Fermentation / Lab, gls:
         frequency in web-browsing-infodumps x gemini listing analysis: [x01]
         why is it studied: Fermentation / Lab
@@ -643,6 +709,31 @@ Species:
         wikipedia link: https://en.wikipedia.org/wiki/Saccharomyces_cerevisiae
         context:
           Sporulation networks (Scientific Significance: Eukaryote network model)
+      - taxonomy:
+        keyword: Komagataella
+        scientific name: genus Komagataella
+        organism type: is a methylotrophic yeast: using methanol as a source of carbon and energy
+        Kingdom: fungi
+        Class: Saccharomycetes
+        Order: Pichiales
+        wiki: 
+          https://en.wikipedia.org/wiki/Komagataella
+        species:
+          According to GBIF[  "Komagataella Y.Yamada, M.Matsuda, K.Maeda & Mikata, 1995". www.gbif.org. https://www.gbif.org/species/7934007]:
+          - Komagataella kurtzmanii G.I.Naumov, E.S.Naumova, Tyurin & Kozlov, 2013
+          - Komagataella mondaviorum G.I.Naumov, E.S.Naumova & K.L.Boundy-Mills, 2018
+          - Komagataella pastoris (Guillierm., 1919) Y.Yamada, M.Matsuda, K.Maeda & Mikata, 1995
+          - Komagataella phaffii Kurtzman, 2005 – responsible for most, if not all, industrial & research use[6]
+          - Komagataella populi Kurtzman, 2012
+          - Komagataella pseudopastoris (Dlauchy, Tornai-Leh., Fülöp & G.Péter, 2003) Kurtzman, 2005
+          - Komagataella ulmi Kurtzman, 2012
+    - role in precision fermentation:
+        src: https://en.wikipedia.org/wiki/Precision_fermentation#Cell_factories
+        expanded context: tag88256395
+        context: 
+          Microbial strains commonly used [as cell factories] include Bacillus subtilis, Corynebacterium glutamicum, Escherichia coli, Komagataella phaffii, Saccharomyces cerevisiae, and Yarrowia lipolytica. 
+        reaon it's used in precision fermentation:
+          S. cerevisiae exhibits rapid growth kinetics, high product yields, and good tolerance to environmental stresses such as low pH and oxygen limitation. Its GRAS status and the availability of advanced genetic tools make it valuable for industrial applications.[15] 
   Scenedesmus:
     - taxonomy: genus
     - role as wastewater raceway colonizer:
@@ -753,6 +844,23 @@ Species:
           Apoptosis mechanisms (Scientific Significance: Iodine role in development)
     - role as noted Organism found in 4/2026 alignment:
         src: its 6/8/2026, tag707153 ... see ./data/XVXGD0G9014-Alignment--vIPO-4-13-26-hits*.
+  Yarrowia lipolytica:
+    - taxonomy:
+        keyword: Y. lipolytica
+        scientific name: Yarrowia lipolytica
+        organism type: aerobic fungus that uses unusual carbon sources
+        family: Dipodascaceae
+        habitat:
+          - src: 
+              https://en.wikipedia.org/wiki/Yarrowia_lipolytica
+          - Yarrowia lipolytica has been isolated from various locations (e.g. milled corn fiber tailings or Paris sewers[4]). Often these environments contain an excess of lipids, which can be efficiently utilized by Y. lipolytica as a carbon and energy source.[5] This species is strictly aerobic.[6] 
+    - role in precision fermentation:
+        src: https://en.wikipedia.org/wiki/Precision_fermentation#Cell_factories
+        expanded context: tag88256395
+        context: 
+          Microbial strains commonly used [as cell factories] include Bacillus subtilis, Corynebacterium glutamicum, Escherichia coli, Komagataella phaffii, Saccharomyces cerevisiae, and Yarrowia lipolytica. 
+        reaon it's used in precision fermentation:
+          Y. lipolytica is a non-conventional, oleaginous yeast species. It can metabolise a wide range of substrates and shows strong environmental adaptability. It is regarded as a promising host for the production of proteins, lipids, flavour compounds, and pigments.[16]
   __todo: go over 5/31 photos. primo stuff.
   __todo: go over Algaculture.ipynb.
   __todo: scrape wiki/Cellulase for good list of species-of-interest
@@ -760,6 +868,34 @@ Species:
     look into this, ABR chapter 3 citations page 82:
       Sheeha J, Dunahay T, Benemann J et al (1998) A look back at the U.S. department of energy's aquatc species program-Biodiesel from algae. National Renewable Energy Laboratory report No. TP-580--24190
 
+
+
+
+Expanded context:
+  - Precision fermentatation cell factories:
+    tag: tag88256395
+    src: https://en.wikipedia.org/wiki/Precision_fermentation#Cell_factories
+    context: 
+      A cell factory is a biological system (microorganisms, plant cells, or mammalian cells) that transform substrates into high-value biological products, such as proteins, enzymes, vitamins, pharmaceuticals and biomaterials under controlled conditions.[8][9] Microbial strains commonly used include Bacillus subtilis, Corynebacterium glutamicum, Escherichia coli, Komagataella phaffii, Saccharomyces cerevisiae, and Yarrowia lipolytica. Each of these hosts possesses unique genetic and metabolic characteristics that make them suitable for defined production purposes in precision fermentation. The selection of a microbial host is based on various factors, including the presence of native biosynthetic pathways for the desired product, the capacity for efficient expression of heterologous pathways, the safety profile of the organism, and its compatibility with different cultivation conditions.[10]
+    references:
+      8: 
+        Navarrete, Clara; Jacobsen, Irene Hjorth; Martínez, José Luis; Procentese, Alessandra (2020-06-30). "Cell Factories for Industrial Production Processes: Current Issues and Emerging Solutions". Processes. 8 (7): 768. doi:10.3390/pr8070768. ISSN 2227-9717.  https://doi.org/10.3390%2Fpr8070768
+      9:
+        Villaverde, Antonio (2010). "Nanotechnology, bionanotechnology and microbial cell factories". Microbial Cell Factories. 9 (1): 53. doi:10.1186/1475-2859-9-53. ISSN 1475-2859. PMC 2916890. PMID 20602780.
+      10:
+        Nielsen, Jens; Keasling, Jay D. (March 2016). "Engineering Cellular Metabolism". Cell. 164 (6): 1185–1197. Bibcode:2016Cell..164.1185N. doi:10.1016/j.cell.2016.02.004. ISSN 0092-8674. PMID 26967285.
+      11: 
+        Mishra, Santosh Kumar; Bhatt, Indu; Paul, Prabir Kumar (2023), "Bacillus subtilis Cell Factory", Biomanufacturing for Sustainable Production of Biomolecules, Singapore: Springer Nature Singapore, pp. 165–173, doi:10.1007/978-981-19-7911-8_8, ISBN 978-981-19-7910-1
+      12:
+        Li, Kai; Sun, Meng-Lin; Yuan, Bing; Li, Cheng; Zhao, Xin-Qing; Liu, Chen-Guang; Sinskey, Anthony J.; Bai, Feng-Wu (March 2025). "Engineering Corynebacterium glutamicum cell factory for producing biochemicals". BioDesign Research. 7 (1) 100008. doi:10.1016/j.bidere.2025.100008. ISSN 2693-1257. PMC 12709890. PMID 41415722. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12709890
+      13:  
+        İncir, İbrahim; Kaplan, Özlem (July 2024). "Escherichia coli as a versatile cell factory: Advances and challenges in recombinant protein production". Protein Expression and Purification. 219 106463. doi:10.1016/j.pep.2024.106463. ISSN 1046-5928. PMID 38479588.
+      14:
+        Cheng, Jintao; Chen, Jiali; Chen, Dingfeng; Li, Baoxian; Wei, Chaozhi; Liu, Tao; Wang, Xiao; Wen, Zhengshun; Jin, Yuanxiang; Sun, Chenfan; Yang, Guiling (2025-01-21). "Development of a Komagataella phaffii cell factory for sustainable production of ( +)-valencene". Microbial Cell Factories. 24 (1) 29. doi:10.1186/s12934-025-02649-5. ISSN 1475-2859. PMC 11752624. PMID 39838465.
+      15:
+        Liu, Dan-Feng; Xin, Xin; Shang, Ru-Jie; Luo, Zi Wei; Li, Bing-Zhi; Liu, Zhi-Hua (August 2025). "Microbial synthesis of terephthalic acid via Saccharomyces cerevisiae cell factories". Biochemical Engineering Journal. 220 109766. Bibcode:2025BioEJ.22009766L. doi:10.1016/j.bej.2025.109766. ISSN 1369-703X. 
+      16:
+        Park, Young-Kyoung; Rossignol, Tristan (2024-06-24). "Broadening the application of Yarrowia lipolytica synthetic biology tools to explore the potential of Yarrowia clade diversity". Microbiology. 170 (6). doi:10.1099/mic.0.001472. ISSN 1350-0872. PMC 11261841. PMID 38913407.  https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11261841
 
 
 
@@ -836,4 +972,3 @@ curated databases:
 
 
 
-#
