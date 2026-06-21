@@ -166,6 +166,7 @@ References:
             3.2: Carbon
             3.3: Nitrogen
             3.4: Phosphorus
+            ,
           4: Integration of Algal Technology with Waste Recycling for Bioremediation and Biofuels
             4.1: Wastewater as Algae Cultivation Medium
             4.2: Nutrient Delivery From Animal Waste
@@ -205,11 +206,28 @@ References:
       90% manually scraped as of 6/8/2026; info merged to here.
   - keyword: bcl
     title: Biomass Conversion Lectures
-    url: tbd...
+    url: https://www.youtube.com/watch?v=H1hrkC--dto&list=PLwdnzlV3ogoW6JKdbQWirzk3k9MeUQZFH
     lectures: [
       - lecture 2: 
-          title: need for bio-based industries
-          reference: first watched 5/22/2026
+          title: 
+            need for bio-based industries
+          reference:
+            first watched 5/22/2026
+            url: 
+              https://www.youtube.com/watch?v=lhZNzhgPpcM
+          ,
+      - lecture 10: 
+          title: 
+            Barriers and types (ie Biomass pretreatment: barriers in lignocellulosic biomass conversion, types of pretreatment technologies)
+          reference: 
+            first watched 6/21/2026
+            url: https://www.youtube.com/watch?v=AGUw-QGShD4
+          slides of interest: 
+            around 38:14, after physical treatment and entry into biological pretreatment
+          further context on ligno/cellulolytic mircoorganisms:
+            Commonly used cellulolytic and ligninolytic microorganisms are bacteria and filamentous fungi (e.g. ascomycetes and basidiomycetes), found in soil, living plants, and lignocellulosic waste material. The fungi are classified into brown rot, white rot, and soft rot fungi. These microorganisms secrete enzymes that are capable of selectively degrading lignin (ligninolytic fungi) or hydrolyzing cellulose (cellulolytic bacteria). White-rot fungi seem to be the most effective lignin-degrading species.
+          ,
+
     ]
       
 Species:
@@ -342,6 +360,32 @@ Species:
         src: wikipedia.org/wiki/Cellulose#Breakdown_(cellulolysis)
         context:
           Most mammals have limited ability to digest dietary fibre such as cellulose. Some ruminants like cows and sheep contain certain symbiotic anaerobic bacteria (such as Cellulomonas and Ruminococcus spp.) in the flora of the rumen, and these bacteria produce enzymes called cellulases that hydrolyze cellulose.
+  Ceriporiopsis subvermispora:
+    - taxonomy: 
+        organism type: white rot fungi 
+        organism type: crust fungi
+        division: 
+          Basidiomycetes 
+        family:
+          Phanerochaete
+        genus: 
+          Ceriporiopsis
+          wikipedia: https://en.wikipedia.org/wiki/Ceriporiopsis
+    - referenced in wikipedia lignin-degradation pages:
+      - Branched-chain dicarboxylic acids , Alkylitaconates:
+          link: https://en.wikipedia.org/wiki/Branched-chain_dicarboxylic_acids#Alkylitaconates
+          context: A series of alkyl- and alkenyl-itaconates, known as ceriporic acids,[7] were found in cultures of a selective lignin-degrading fungus (white rot fungus), Ceriporiopsis subvermispora.[8
+      - Lignin-modifying enzyme:
+          link: https://en.wikipedia.org/wiki/Lignin-modifying_enzyme
+          context: Lignin-modifying enzymes have been known to be produced by many species of white rot basidiomycetous fungi, including: Phanerochaete chrysosporium, Ceriporiopsis subvermispora, Trametes versicolor, Phlebia radiata, Pleurotus ostreatus and Pleurotus eryngii. 
+      - Lignin:
+          link: https://en.wikipedia.org/wiki/Lignin#Lignin_degradation_by_fungi
+          context: Well-studied ligninolytic enzymes are found in Phanerochaete chrysosporium[36] and other white rot fungi. Some white rot fungi, such as Ceriporiopsis subvermispora, can degrade the lignin in lignocellulose, but others lack this ability. Most fungal lignin degradation involves secreted peroxidases. 
+    - role in biomass pretreatment:
+        keyword: C. subvermispora
+        src: bcl lecture 10, 38:12
+        context: 
+          During their growth, most white-rot fungi (e.g. Pleurotus ostreatus, Trametes versicolor, Phanerochaete chrysosporium, and P. chrysosporium) produce extracellular lignin-modifying enzymes including laccase, lignin peroxidases (LiPs) and manganese peroxidases (MnPs). ... In addition, some white rot fungi (P. chrysosporium, C. subvermispora, and Echinodontium taxodii 2538) excrete cellulolytic enzymes known to hydrolyze cellulose thus increasing its enzymatic digestibility.  
   Chara:
     - taxonomy:
         keyword: Chara
@@ -426,6 +470,12 @@ Species:
         wikipedia link: https://en.wikipedia.org/wiki/Cladophora
         context:
           Heavy metal uptake (Scientific Significance: Phytoremediation capacity)
+  Coniophora puteana:
+    - taxonomy: brown rot fungi
+    - role in biomass pretreatment:
+        keyword: Coniophora puteana
+        src: bcl lecture 10, 39:15
+        pine radiate (sapwood) feedstock; high glucose yield?
   Corynebacterium glutamicum:
     - taxonomy:
       description: 
@@ -439,6 +489,12 @@ Species:
           Microbial strains commonly used [as cell factories] include Bacillus subtilis, Corynebacterium glutamicum, Escherichia coli, Komagataella phaffii, Saccharomyces cerevisiae, and Yarrowia lipolytica. 
         reaon it's used in precision fermentation:
           C. glutamicum is a fast-growing, facultative aerobic, Gram-positive bacterium. It can utilize a variety of sugars, organic acids, and alcohols as sole or mixed carbon sources. Known for its excellent amino acid production capabilities, C. glutamicum is also used in the industrial production of other high-value compounds, including organic acids and terpenoids.[12]
+  Cupriavidus basilensis B-8:
+    - taxonomy: bacterium
+    - role in biomass pretreatment:
+        keyword: Cupriavidus basilensis B-8
+        src: bcl lecture 10, 39:15
+        acid-pretreated rice sraw feedstock; digestibility increased when feedstock biomass was acid-pretreated. 
   Dreissena polymorpha:
     - taxonomy:
         keyword: Dreissena polymorpha
@@ -452,10 +508,11 @@ Species:
         wikipedia link: https://en.wikipedia.org/wiki/Zebra_mussel
         context:
           Adhesive plaque (Scientific Significance: Byssus thread protein)
-  E Coli:
+  Escherichia coli:
     - taxonomy:
         organism type: gram-negative facultative-anaerobic bacteria
         keyword: Escherichia coli
+        commonly known as: E Coli, E. Coli
         scientific name: Escherichia coli
         description (wikipedia):
           is a gram-negative, facultative anaerobic, rod-shaped, coliform bacterium of the genus Escherichia that is commonly found in the lower intestine of warm-blooded organisms.
@@ -474,6 +531,26 @@ Species:
           Microbial strains commonly used [as cell factories] include Bacillus subtilis, Corynebacterium glutamicum, Escherichia coli, Komagataella phaffii, Saccharomyces cerevisiae, and Yarrowia lipolytica. 
         reaon it's used in precision fermentation:
           E. coli is a rod-shaped Gram-negative bacterium. A widespread and non-pathogenic strain of this bacterium a commonly used host strain to produce various valuable products. This expression system has the advantages of convenient genetic manipulation, simple transformation process, low cost, and efficient production.[13]
+  Echinodontium:
+    - taxonomy: 
+        organism type: lignin-selective white rot fungi 
+        organism type: crust fungi
+        division: 
+          Basidiomycetes 
+        family:
+          Echinodontiaceae
+        genus: 
+          - Either Echinodontium or Laurilia; 
+          - https://en.wikipedia.org/wiki/Echinodontium
+          - https://en.wikipedia.org/wiki/Laurilia
+          - possible clarification found in these two references:
+            - https://www.sciencedirect.com/science/article/abs/pii/S1359511316300071
+            - https://pubmed.ncbi.nlm.nih.gov/19545999/
+    - role in biomass pretreatment:
+        keyword: Echinodontium taxodii 2538
+        src: bcl lecture 10, 38:12
+        context: 
+          During their growth, most white-rot fungi (e.g. Pleurotus ostreatus, Trametes versicolor, Phanerochaete chrysosporium, and P. chrysosporium) produce extracellular lignin-modifying enzymes including laccase, lignin peroxidases (LiPs) and manganese peroxidases (MnPs). ... In addition, some white rot fungi (P. chrysosporium, C. subvermispora, and Echinodontium taxodii 2538) excrete cellulolytic enzymes known to hydrolyze cellulose thus increasing its enzymatic digestibility.  
   Emiliania huxleyi:
     - taxonomy:
         keyword: Emiliania huxleyi
@@ -649,6 +726,61 @@ Species:
       src: ABR c03s4.1 p77, nutrient source = wastewater
       context:
         However, as was expected in open raceways system using wastewater, these [initial inoculating] strains could not maintain their dominance and were superseded by locally dominant algae.... the results revealed that cyanobacteria (blue green algae) dominated during summer, representing 95% of the total microalgal population identified in the raceways.... (4) In contrast, during winter green and blue green algae were almost in equal proportions. ... Among green microalgae, Paulinella was the most dominant with average biovolume of 53% of the total green algae identified.
+  P. chrysosporium:
+    - likely misattributed; see duplicate: Phanerochaete chrysosporium
+    - taxonomy: 
+        organism type: hyaline hyphomycetes fungi 
+        organism type: mold
+        division: 
+          Ascomycetes 
+        family:
+          Onygenaceae
+        genus: 
+          Chrysosporium
+          wikipedia: https://en.wikipedia.org/wiki/Chrysosporium
+    - role in biomass pretreatment:
+        keyword: P chrysosporium
+        src: bcl lecture 10, 38:12
+        context: 
+          During their growth, most white-rot fungi (e.g. Pleurotus ostreatus, Trametes versicolor, Phanerochaete chrysosporium, and P. chrysosporium) produce extracellular lignin-modifying enzymes including laccase, lignin peroxidases (LiPs) and manganese peroxidases (MnPs). ... In addition, some white rot fungi (P. chrysosporium, C. subvermispora, and Echinodontium taxodii 2538) excrete cellulolytic enzymes known to hydrolyze cellulose thus increasing its enzymatic digestibility.
+  Phanerochaete chrysosporium:
+    - taxonomy: 
+        organism type: white-rot fungi
+        organism type: crust fungi
+        division: 
+          Basidiomycetes 
+          https://microbewiki.kenyon.edu/index.php/Basidiomycota
+        genus: 
+          Phanerochaete
+          wikipedia: https://en.wikipedia.org/wiki/Phanerochaete
+        more info: 
+          https://microbewiki.kenyon.edu/index.php/Phanerochaete_chrysosporium
+          "the model white rot fungus because of its specialized ability to degrade the abundant aromatic polymer lignin, while leaving the white cellulose nearly untouched."
+    - role in biomass pretreatment:
+        keyword: Phanerochaete chrysosporium
+        src: bcl lecture 10, 38:12
+        context: 
+          During their growth, most white-rot fungi (e.g. Pleurotus ostreatus, Trametes versicolor, Phanerochaete chrysosporium, and P. chrysosporium) produce extracellular lignin-modifying enzymes including laccase, lignin peroxidases (LiPs) and manganese peroxidases (MnPs). ... In addition, some white rot fungi (P. chrysosporium, C. subvermispora, and Echinodontium taxodii 2538) excrete cellulolytic enzymes known to hydrolyze cellulose thus increasing its enzymatic digestibility.
+  
+  Phlebia radiata:
+    - taxonomy: 
+        common name: wrinkled crust
+        kingdom: fungi
+        division: Basidiomycota
+        family: Meruliaceae
+        organism type: saprotrophic crust fungus
+        organism type: white rot fungus
+        description: grows on deciduous trees
+    - referenced in wikipedia lignin-degradation pages:
+      - Lignin-modifying enzyme:
+          link: https://en.wikipedia.org/wiki/Lignin-modifying_enzyme
+          context: Lignin-modifying enzymes have been known to be produced by many species of white rot basidiomycetous fungi, including: Phanerochaete chrysosporium, Ceriporiopsis subvermispora, Trametes versicolor, Phlebia radiata, Pleurotus ostreatus and Pleurotus eryngii. 
+    - role in biomass pretreatment:
+        keyword: Phlebia radiata
+        src: bcl lecture 10, 43:33
+        context: 
+          studied as producer of lignocellolytic enzymes Laccase and Lignin Peroxidase and Manganese Peroxidase
+  
   Phragmatopoma californica:
     - taxonomy:
         keyword: Phragmatopoma californica
@@ -662,6 +794,25 @@ Species:
         wikipedia link: https://en.wikipedia.org/wiki/Phragmatopoma_californica
         context:
           Polyphenolic proteins (Scientific Significance: Tyrosine modification)
+  Pleurotus ostreatus:
+    - taxonomy: white-rot fungi
+    - role in biomass pretreatment:
+        keyword: Pleurotus ostreatus
+        src: bcl lecture 10, 38:12
+        context: 
+          During their growth, most white-rot fungi (e.g. Pleurotus ostreatus, Trametes versicolor, Phanerochaete chrysosporium, and P. chrysosporium) produce extracellular lignin-modifying enzymes including laccase, lignin peroxidases (LiPs) and manganese peroxidases (MnPs). ... In addition, some white rot fungi (P. chrysosporium, C. subvermispora, and Echinodontium taxodii 2538) excrete cellulolytic enzymes known to hydrolyze cellulose thus increasing its enzymatic digestibility.
+  Postia placenta:
+    - taxonomy: brown rot fungi
+    - role in biomass pretreatment:
+        keyword: Postia placenta
+        src: bcl lecture 10, 39:15
+        pine radiate (sapwood) feedstock; high glucose yield?
+  Pringsheimia smilacis:
+    - taxonomy: Ascomycetes endophytic fungi
+    - role in biomass pretreatment:
+        keyword: Pringsheimia smilais
+        src: bcl lecture 10, 39:15
+        Eucalyptus globulis feedstock; high sugar production?
   Pseudomonas:
     - role as alkotolerant marine bacteria:
         context: 
@@ -670,6 +821,23 @@ Species:
         link: https://en.wikipedia.org/wiki/Pseudomonas
         reference cited:  Maeda, M.; Taga, N. (31 March 1980). "Alkalotolerant and Alkalophilic Bacteria in Seawater". Marine Ecology Progress Series. 2: 105-108. Bibcode:1980MEPS....2..105M. doi:10.3354/meps002105. https://doi.org/10.3354%2Fmeps002105
         date: 6/9/2026
+  Pycnoporus cinnabarinus:
+    - taxonomy:
+        common name: cinnabar polypore
+        organism type: saprophytic, white rot fungi decomposer. Inedible.
+        scientific name: Pycnoporus cinnabarinus
+        division: Basidiomycota
+        description: found as bright orange shelf mushroom on bark.
+    - wikipedia reference:
+        https://en.wikipedia.org/wiki/Pycnoporus_cinnabarinus
+    - role in Biotechnical applications:
+        - One of the notable uses of P. cinnabarinus involving biotechnology is its ability to produce enzymes such as laccases and oxidases. Particularly its well studied use in the bioconversion of ferulic acid to vanillin, a valuable natural flavoring agent. This fungus demonstrates potential for natural vanillin production without the addition of synthetic chemicals. 
+    - role in biomass pretreatment:
+        keyword: Pycnoporus cinnabarinus
+        src: bcl lecture 10, 42:48
+        context: 
+          (concerning extracting hydrolytic enzymes for direct application onto lignocellulose) 
+          The pretreatement of wheat straw using Pycnoporus cinnabarinus laccase (65 U/g) and 1-hydroxybenzotriazole mediator (20%) system achieved 37% lignin removal, leading to an increase of 60% in glucose yield after enzymatic hydrolysis.
   Rhizobia:
     - role in nitrogen fixing:
       keyword: Rhizobia
@@ -783,6 +951,13 @@ Species:
           Some bacteria interact with diatoms, and form a critical link in the cycling of silicon in the ocean. One anaerobic species, Thiomargarita namibiensis, plays an important part in the breakdown of hydrogen sulfide eruptions from diatomaceous sediments off the Namibian coast, and generated by high rates of phytoplankton growth in the Benguela Current upwelling zone, eventually falling to the seafloor. 
         src: https://en.wikipedia.org/wiki/Seawater#Microbial_components
         link: https://en.wikipedia.org/wiki/Thiomargarita_namibiensis
+  Trametes versicolor:
+    - taxonomy: white-rot fungi
+    - role in biomass pretreatment:
+        keyword: Trametes versicolor
+        src: bcl lecture 10, 38:12
+        context: 
+          During their growth, most white-rot fungi (e.g. Pleurotus ostreatus, Trametes versicolor, Phanerochaete chrysosporium, and P. chrysosporium) produce extracellular lignin-modifying enzymes including laccase, lignin peroxidases (LiPs) and manganese peroxidases (MnPs). ... In addition, some white rot fungi (P. chrysosporium, C. subvermispora, and Echinodontium taxodii 2538) excrete cellulolytic enzymes known to hydrolyze cellulose thus increasing its enzymatic digestibility.
   Trebouxia gelatinosa:
     - taxonomy:
         organism type: green algae
@@ -791,6 +966,12 @@ Species:
       src: ABR c03s4.1 p77, nutrient source = wastewater
       context:
         However, as was expected in open raceways system using wastewater, these [initial inoculating] strains could not maintain their dominance and were superseded by locally dominant algae.... the results revealed that cyanobacteria (blue green algae) dominated during summer, representing 95% of the total microalgal population identified in the raceways.... (5) Chlorella vulgaris (15%) and Trebouxia gelatinosa (8%) were also among the dominant green algae species seen. 
+  Trichoderma reesei:
+    - taxonomy: soft rot fungi
+    - role in biomass pretreatment:
+        keyword: Trichoderma reesei
+        src: bcl lecture 10, 39:15
+        rice straw feedstock; methanogenic?
   tunicate:
     - role as having endostyle, the mammal immune precursor:
         src: its 6/8/2026, tag514432
